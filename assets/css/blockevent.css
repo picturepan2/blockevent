@@ -123,6 +123,10 @@
     padding: 0;
     width: 100%;
   }
+  .blockevent-content .blockevent-item .event-name {
+    font-size: 1rem;
+    margin: .2rem 0;
+  }
 }
 
 .blockevent-sidebar .blockevent-title {
