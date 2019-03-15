@@ -31,6 +31,15 @@
 
 .section-main {
   padding: $unit-4 0;
+
+  @media screen and (max-width: $size-md) {
+    .content-container {
+      order: 2;
+    }
+    .sidebar-container {
+      order: 1;
+    }
+  }
 }
 
 .blockevent-content {
@@ -132,6 +141,8 @@
 }
 
 .blockevent-sidebar {
+  height: 100%;
+
   .blockevent-title {
     color: $gray-color-dark;
     font-size: .6rem;
@@ -142,7 +153,12 @@
   }
 
   .blockevent-sponsors {
+    background: $light-color;
     display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 0;
   }
 
   .sponsor-item {

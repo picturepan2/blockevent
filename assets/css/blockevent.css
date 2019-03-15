@@ -24,6 +24,17 @@
   padding: .8rem 0;
 }
 
+@media screen and (max-width: 840px) {
+  .section-main .content-container {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .section-main .sidebar-container {
+    -ms-flex-order: 1;
+    order: 1;
+  }
+}
+
 .blockevent-content {
   display: flex;
   display: -ms-flexbox;
@@ -129,6 +140,10 @@
   }
 }
 
+.blockevent-sidebar {
+  height: 100%;
+}
+
 .blockevent-sidebar .blockevent-title {
   color: #b9b9b9;
   font-size: .6rem;
@@ -139,8 +154,15 @@
 }
 
 .blockevent-sidebar .blockevent-sponsors {
-  display: flex; 
+  background: #fff;
+  display: flex;
   display: -ms-flexbox;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .blockevent-sidebar .sponsor-item {

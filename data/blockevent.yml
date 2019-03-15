@@ -15,7 +15,7 @@
     end: 20190315
   location: New Orleans, LA
   description: ~
-  highlight: true
+  highlight: false
 -
   name: International Conference on Blockchain Technology 2019
   url: http://www.icbct.org/
@@ -204,7 +204,7 @@
     end: 20190412
   location: Singapore
   description: ~
-  highlight: false
+  highlight: true
 -
   name: Stockholm Blockchain Forum
   url: http://stockholmblockchainforum.com/
