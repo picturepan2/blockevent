@@ -330,7 +330,7 @@
     end: 20190515
   location: New York, NY
   description: ~
-  highlight: false
+  highlight: true
 -
   name: Construct
   url: https://www.coindesk.com/events/consensus-2019/construct
