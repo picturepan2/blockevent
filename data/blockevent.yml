@@ -1,0 +1,28 @@
+events:
+  -
+    name: Token2049
+    url: https://www.token2049.com
+    date: 
+      start: 20190313
+      end: 20190314
+    location: Hong Kong
+    description: TOKEN2049 is the premier crypto event in Asia. Join us to explore cryptoassets and blockchain-based tokens as they reshape the global economy.
+    highlight: true
+  -
+    name: Money20/20 Asia
+    url: https://www.token2049.com
+    date: 
+      start: 20190313
+      end: 20190314
+    location: Singapore
+    description: null
+    highlight: false
+  -
+    name: Blockchain Innovation & Investment Summit 2019
+    url: https://www.token2049.com
+    date: 
+      start: 20190313
+      end: 20190314
+    location: Dubai
+    description: null
+    highlight: false

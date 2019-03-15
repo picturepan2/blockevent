@@ -1,0 +1,55 @@
+include _mixins.pug
+
+block global
+  - var domain = 'https://blockevent.co'
+  - var url = domain
+
+block variables
+  - var slug = 'index'
+  - var parent = 'index'
+  - var title = 'BlockEvent - Blockchain Conferences and Events'
+  - var description = 'Blockchain Conferences and Events.'
+
+if parent = 'index'
+  if slug == 'index'
+    - var url = domain 
+  else
+    - var url = domain + '/' + slug + '.html'
+else 
+  - var url = domain + parent + '/' + slug + '.html'
+
+doctype html
+html(lang='en')
+  head
+    title= title
+    meta(charset='utf-8')
+    meta(name='robots' content='index, follow')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, shrink-to-fit=no')
+    meta(http-equiv='x-ua-compatible' content='ie=edge')
+    meta(name='description' content= description)
+    meta(name='author' content='Yan Zhu')
+    meta(property='og:url' content= url)
+    meta(property='og:title' content= title)
+    meta(property='og:description' content= description)
+    meta(name='twitter:card' content='summary')
+    meta(name='twitter:creator' content='@picturepan2')
+    if parent = 'index'
+      link(rel='stylesheet' href='assets/css/spectre.min.css')
+      link(rel='stylesheet' href='assets/css/blockevent.min.css')
+    else
+      link(rel='stylesheet' href='../assets/css/spectre.min.css')
+      link(rel='stylesheet' href='../assets/css/blockevent.min.css')
+    link(rel='canonical' href= url)
+    
+  body
+    block content
+
+    script(async="" src="https://www.googletagmanager.com/gtag/js?id=UA-2702768-15")
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-2702768-15');
+
+
+  

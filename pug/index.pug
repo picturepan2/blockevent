@@ -1,0 +1,24 @@
+extends _layout/_layout.pug
+
+block variables
+  - var slug = 'index'
+  - var parent = 'index'
+  - var title = 'BlockEvent - Blockchain Conferences and Events'
+  - var description = 'Blockchain Conferences and Events.'
+
+block content
+  header.section-header
+    .container.grid-xl
+      include _layout/_header.pug
+  
+  .section-main
+    .container.grid-xl
+      .columns
+        .column.col-8          
+          include _content/_event-list.pug
+        .column.col-4
+          include _content/_sidebar.pug
+
+  footer.section-footer
+    .container.grid-xl
+      include _layout/_footer.pug
