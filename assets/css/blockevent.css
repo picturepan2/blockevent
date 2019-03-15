@@ -15,6 +15,11 @@
   padding: .8rem 0;
 }
 
+.section-header .navbar .btn {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .section-main {
   padding: .8rem 0;
 }
@@ -24,12 +29,14 @@
   display: -ms-flexbox;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 100vh;
 }
 
 .blockevent-content .blockevent-title {
+  font-size: .6rem;
   font-weight: 700;
+  margin-bottom: 1rem;
   padding: .5rem 0;
+  text-transform: uppercase;
 }
 
 .blockevent-content .blockevent-item {
@@ -52,11 +59,11 @@
 }
 
 .blockevent-content .blockevent-item.highlight {
-  background: #edeafb;
+  background: #f1eefc;
 }
 
 .blockevent-content .blockevent-item.highlight:hover {
-  background: #e9e6fa;
+  background: #edeafb;
 }
 
 .blockevent-content .blockevent-item.highlight .event-name a {
@@ -65,10 +72,10 @@
 
 .blockevent-content .blockevent-item .event-date {
   color: #3a3939;
-  -ms-flex: 1 0 20%;
-  flex: 1 0 20%;
+  -ms-flex: 1 0 25%;
+  flex: 1 0 25%;
   padding: 0 .5rem 0 0;
-  width: 20%;
+  width: 25%;
 }
 
 .blockevent-content .blockevent-item .event-name {
@@ -95,11 +102,21 @@
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   text-align: right;
-  width: 3.5rem;
+  width: 4rem;
 }
 
 .blockevent-content .blockevent-item .event-action .btn-sm {
-  width: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 4rem;
+}
+
+.blockevent-sidebar .blockevent-title {
+  font-size: .6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding: .5rem 0;
+  text-transform: uppercase;
 }
 
 .section-footer {

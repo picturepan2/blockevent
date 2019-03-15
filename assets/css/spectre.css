@@ -289,7 +289,7 @@ body {
   background: #fff;
   color: #2d2d2d;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  font-size: .8rem;
+  font-size: .7rem;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
 }
@@ -381,7 +381,7 @@ kbd {
   background: #202020;
   border-radius: 0;
   color: #fff;
-  font-size: .7rem; 
+  font-size: .6rem; 
   line-height: 1.2;
   padding: .1rem .2rem;
 }
@@ -493,7 +493,7 @@ dl dd {
   color: #202020;
   cursor: pointer;
   display: inline-block;
-  font-size: .8rem;
+  font-size: .7rem;
   height: 1.8rem;
   line-height: 1.2rem;
   outline: none;
@@ -580,7 +580,7 @@ dl dd {
 }
 
 .btn.btn-sm {
-  font-size: .7rem;
+  font-size: .6rem;
   height: 1.4rem;
   padding: 0rem .3rem;
 }
@@ -700,7 +700,7 @@ legend {
 }
 
 .form-label.label-sm {
-  font-size: .7rem;
+  font-size: .6rem;
   padding: .1rem 0;
 }
 
@@ -719,7 +719,7 @@ legend {
   border-radius: 0;
   color: #2d2d2d;
   display: block;
-  font-size: .8rem;
+  font-size: .7rem;
   height: 1.8rem;
   line-height: 1.2rem;
   max-width: 100%;
@@ -748,7 +748,7 @@ legend {
 }
 
 .form-input.input-sm {
-  font-size: .7rem;
+  font-size: .6rem;
   height: 1.4rem;
   padding: 0rem .3rem;
 }
@@ -777,7 +777,7 @@ textarea.form-input.input-sm {
 
 .form-input-hint {
   color: #f9f9f9;
-  font-size: .7rem;
+  font-size: .6rem;
   margin-top: .2rem;
 }
 
@@ -799,7 +799,7 @@ textarea.form-input.input-sm {
   border: .1rem solid #d3d2d2;
   border-radius: 0;
   color: inherit;
-  font-size: .8rem;
+  font-size: .7rem;
   height: 1.8rem;
   line-height: 1.2rem;
   outline: none;
@@ -818,7 +818,7 @@ textarea.form-input.input-sm {
 }
 
 .form-select.select-sm {
-  font-size: .7rem;
+  font-size: .6rem;
   height: 1.4rem;
   padding: 0rem 1.1rem 0rem .3rem;
 }
@@ -926,7 +926,7 @@ textarea.form-input.input-sm {
 .form-checkbox.input-sm,
 .form-radio.input-sm,
 .form-switch.input-sm {
-  font-size: .7rem;
+  font-size: .6rem;
   margin: 0;
 }
 
@@ -1054,7 +1054,7 @@ textarea.form-input.input-sm {
 }
 
 .input-group .input-group-addon.addon-sm {
-  font-size: .7rem;
+  font-size: .6rem;
   padding: 0rem .3rem;
 }
 
@@ -1292,7 +1292,7 @@ input.disabled + .form-icon {
 }
 
 .label.label-secondary {
-  background: #edeafb;
+  background: #f1eefc;
   color: #4b34dd;
 }
 
@@ -2050,13 +2050,13 @@ video.video-responsive::before {
 
 .menu .menu-item > a:focus,
 .menu .menu-item > a:hover {
-  background: #edeafb;
+  background: #f1eefc;
   color: #4b34dd;
 }
 
 .menu .menu-item > a:active,
 .menu .menu-item > a.active {
-  background: #edeafb;
+  background: #f1eefc;
   color: #4b34dd;
 }
 
@@ -2231,7 +2231,7 @@ video.video-responsive::before {
   color: #fff;
   content: attr(data-tooltip);
   display: block;
-  font-size: .7rem;
+  font-size: .6rem;
   left: 50%;
   max-width: 320px;
   opacity: 0;
@@ -2325,16 +2325,16 @@ a.text-primary:visited {
 }
 
 .text-secondary {
-  color: #e2ddf9 !important;
+  color: #e6e1fa !important;
 }
 
 a.text-secondary:focus,
 a.text-secondary:hover {
-  color: #d0c8f4;
+  color: #d4cbf6;
 }
 
 a.text-secondary:visited {
-  color: #f4f3fd;
+  color: #f8f7fe;
 }
 
 .text-gray {
@@ -2421,7 +2421,7 @@ a.text-error:visited {
 }
 
 .bg-secondary {
-  background: #edeafb !important;
+  background: #f1eefc !important;
 }
 
 .bg-dark {
@@ -2539,9 +2539,9 @@ a.text-error:visited {
   color: #f9f9f9;
   content: attr(data-content);
   display: inline-block;
-  font-size: .7rem;
+  font-size: .6rem;
   padding: 0 .4rem;
-  transform: translateY(-.6rem);
+  transform: translateY(-.5rem);
 }
 
 .divider {

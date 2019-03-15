@@ -21,6 +21,11 @@
   .navbar {
     border-bottom: .15rem double $border-color;
     padding: $unit-4 0;
+
+    .btn {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -31,11 +36,13 @@
 .blockevent-content {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 
   .blockevent-title {
+    font-size: .6rem;
     font-weight: 700;
+    margin-bottom: 1rem;
     padding: .5rem 0;
+    text-transform: uppercase;
   }
 
   .blockevent-item {
@@ -70,9 +77,9 @@
 
     .event-date {
       color: lighten($dark-color, 10%);
-      flex: 1 0 20%;
+      flex: 1 0 25%;
       padding: 0 .5rem 0 0;
-      width: 20%;
+      width: 25%;
     }
 
     .event-name {
@@ -96,12 +103,24 @@
     .event-action {
       flex: 1 0 auto;
       text-align: right;
-      width: 3.5rem;
+      width: 4rem;
 
       .btn-sm {
-        width: 3.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 4rem;
       }
     }
+  }
+}
+
+.blockevent-sidebar {
+  .blockevent-title {
+    font-size: .6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: .5rem 0;
+    text-transform: uppercase;
   }
 }
 

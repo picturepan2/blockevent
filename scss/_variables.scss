@@ -2,7 +2,7 @@
 $primary-color: #4b34dd !default;
 $primary-color-dark: darken($primary-color, 3%) !default;
 $primary-color-light: lighten($primary-color, 3%) !default;
-$secondary-color: #edeafb !default;
+$secondary-color: #f1eefc !default;
 $secondary-color-dark: darken($secondary-color, 3%) !default;
 $secondary-color-light: lighten($secondary-color, 3%) !default;
 
@@ -63,8 +63,8 @@ $unit-16: 3.2rem !default;
 // Font sizes
 $html-font-size: 20px !default;
 $html-line-height: 1.5 !default;
-$font-size: .8rem !default;
-$font-size-sm: .7rem !default;
+$font-size: .7rem !default;
+$font-size-sm: .6rem !default;
 $font-size-lg: .9rem !default;
 $line-height: 1.2rem !default;
 

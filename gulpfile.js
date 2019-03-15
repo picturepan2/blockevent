@@ -18,12 +18,14 @@ var paths = {
 
 gulp.task('watch', function() {
   gulp.watch('./**/*.scss', ['build']);
+  gulp.watch('./**/*.yml', ['data']);
   gulp.watch('./**/*.pug', ['web']);
+  gulp.watch('./**/*.json', ['web']);
 });
 
 gulp.task('data', function() {
   gulp.src(paths.data)
-    .pipe(yaml({ schema: 'DEFAULT_SAFE_SCHEMA' }))
+    .pipe(yaml({schema: 'DEFAULT_SAFE_SCHEMA'}))
     .pipe(gulp.dest('./data/'))
 });
 
@@ -54,4 +56,4 @@ gulp.task('web', function() {
     .pipe(gulp.dest('./'));
 });
 
-gulp.task('default', ['build']);
+gulp.task('default', ['build', 'data', 'web']);

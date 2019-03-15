@@ -13,7 +13,7 @@
     "url": "https://github.com/picturepan2/blockevent/issues"
   },
   "scripts": {
-    "update": "gulp web"
+    "update": "gulp data && gulp web"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
