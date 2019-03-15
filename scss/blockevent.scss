@@ -33,6 +33,11 @@
   flex-direction: column;
   height: 100vh;
 
+  .blockevent-title {
+    font-weight: 700;
+    padding: .5rem 0;
+  }
+
   .blockevent-item {
     align-items: center;
     background: $bg-color;
@@ -45,35 +50,57 @@
       margin-bottom: .1rem;
     }
 
+    &:hover {
+      background: darken($bg-color, 1%);
+    }
+
     &.highlight {
       background: $secondary-color;
+
+      &:hover {
+        background: darken($secondary-color, 1%);
+      }
+
+      .event-name {
+        a {
+          color: $primary-color;
+        }
+      }
     }
 
     .event-date {
       color: lighten($dark-color, 10%);
-      flex: 1 1 20%;
+      flex: 1 0 20%;
       padding: 0 .5rem 0 0;
       width: 20%;
     }
 
     .event-name {
-      color: $dark-color;
       flex: 1 1 50%;
       font-weight: 700;
       padding: 0 .5rem;
       width: 50%;
+
+      a {
+        color: $dark-color;
+      }
     }
 
     .event-location {
       color: lighten($dark-color, 10%);
-      flex: 1 1 30%;
-      padding: 0 4rem 0 .5rem;
-      width: 30%;
+      flex: 1 0 25%;
+      padding: 0 .5rem;
+      width: 25%;
     }
 
     .event-action {
-      position: absolute;
-      right: -.5rem;
+      flex: 1 0 auto;
+      text-align: right;
+      width: 3.5rem;
+
+      .btn-sm {
+        width: 3.5rem;
+      }
     }
   }
 }

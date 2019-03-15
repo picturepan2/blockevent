@@ -27,6 +27,11 @@
   height: 100vh;
 }
 
+.blockevent-content .blockevent-title {
+  font-weight: 700;
+  padding: .5rem 0;
+}
+
 .blockevent-content .blockevent-item {
   align-items: center;
   background: #f9f9f9;
@@ -42,20 +47,31 @@
   margin-bottom: .1rem;
 }
 
+.blockevent-content .blockevent-item:hover {
+  background: #f6f6f6;
+}
+
 .blockevent-content .blockevent-item.highlight {
   background: #edeafb;
 }
 
+.blockevent-content .blockevent-item.highlight:hover {
+  background: #e9e6fa;
+}
+
+.blockevent-content .blockevent-item.highlight .event-name a {
+  color: #4b34dd;
+}
+
 .blockevent-content .blockevent-item .event-date {
   color: #3a3939;
-  -ms-flex: 1 1 20%;
-  flex: 1 1 20%;
+  -ms-flex: 1 0 20%;
+  flex: 1 0 20%;
   padding: 0 .5rem 0 0;
   width: 20%;
 }
 
 .blockevent-content .blockevent-item .event-name {
-  color: #202020;
   -ms-flex: 1 1 50%;
   flex: 1 1 50%;
   font-weight: 700;
@@ -63,17 +79,27 @@
   width: 50%;
 }
 
+.blockevent-content .blockevent-item .event-name a {
+  color: #202020;
+}
+
 .blockevent-content .blockevent-item .event-location {
   color: #3a3939;
-  -ms-flex: 1 1 30%;
-  flex: 1 1 30%;
-  padding: 0 4rem 0 .5rem;
-  width: 30%;
+  -ms-flex: 1 0 25%;
+  flex: 1 0 25%;
+  padding: 0 .5rem;
+  width: 25%;
 }
 
 .blockevent-content .blockevent-item .event-action {
-  position: absolute;
-  right: -.5rem;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  text-align: right;
+  width: 3.5rem;
+}
+
+.blockevent-content .blockevent-item .event-action .btn-sm {
+  width: 3.5rem;
 }
 
 .section-footer {
