@@ -13,14 +13,16 @@ var fs = require('fs');
 var paths = {
   scss: './scss/*.scss',
   data: './data/*.yml',
-  pug: './pug/!(_)*.pug'
+  pug: './pug/!(_)*.pug',
+  ics: './pug/ical/*.pug'
 };
 
 gulp.task('watch', function() {
   gulp.watch('./**/*.scss', ['build']);
   gulp.watch('./**/*.yml', ['data']);
   gulp.watch('./**/*.pug', ['web']);
-  gulp.watch('./**/*.json', ['web']);
+  gulp.watch('./**/*.json', ['web', 'ics']);
+  gulp.watch('./ical/*.pug', ['ics']);
 });
 
 gulp.task('data', function() {
@@ -36,12 +38,12 @@ gulp.task('build', function() {
     )
     .pipe(autoprefixer())
     .pipe(csscomb())
-    .pipe(gulp.dest('./assets/css'))
+    .pipe(gulp.dest('./docs/assets/css'))
     .pipe(cleancss())
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('./assets/css'));
+    .pipe(gulp.dest('./docs/assets/css'));
 });
 
 gulp.task('web', function() {
@@ -53,7 +55,18 @@ gulp.task('web', function() {
     .pipe(pug({
       pretty: true
     }))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./docs'));
 });
 
-gulp.task('default', ['build', 'data', 'web']);
+gulp.task('ics', function() {
+  gulp.src(paths.ics)
+    .pipe(pug({
+      pretty: true
+    }))
+    .pipe(rename({
+      extname: ".ics"
+    }))
+    .pipe(gulp.dest('./docs/ical'));
+});
+
+gulp.task('default', ['build', 'data', 'web', 'ics']);
