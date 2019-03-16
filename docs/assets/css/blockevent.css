@@ -20,6 +20,17 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 840px) {
+  .section-header .navbar .navbar-section {
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+  }
+}
+
+.section-header .navbar-section {
+  padding: .4rem 0;
+}
+
 .section-main {
   padding: .8rem 0;
 }

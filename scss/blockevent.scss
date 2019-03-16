@@ -26,6 +26,16 @@
       font-weight: 700;
       text-transform: uppercase;
     }
+
+    .navbar-section {
+      @media screen and (max-width: $size-md) {
+        justify-content: flex-start !important;
+      }
+    }
+  }
+
+  .navbar-section {
+    padding: .4rem 0;
   }
 }
 
