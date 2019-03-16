@@ -155,7 +155,9 @@
 }
 
 .blockevent-sidebar {
-  height: 100%;
+  @media screen and (min-width: $size-md) {
+    height: 100%;
+  }
 
   .blockevent-title {
     color: $gray-color-dark;

@@ -154,8 +154,10 @@
   }
 }
 
-.blockevent-sidebar {
-  height: 100%;
+@media screen and (min-width: 840px) {
+  .blockevent-sidebar {
+    height: 100%;
+  }
 }
 
 .blockevent-sidebar .blockevent-title {
