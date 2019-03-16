@@ -128,8 +128,7 @@
 
 @media screen and (max-width: 600px) {
   .blockevent-content .blockevent-item {
-    -ms-flex-direction: column;
-    flex-direction: column;
+    display: block;
   }
   .blockevent-content .blockevent-item .event-date,
   .blockevent-content .blockevent-item .event-name,

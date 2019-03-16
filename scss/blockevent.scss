@@ -126,7 +126,7 @@
     }
 
     @media screen and (max-width: $size-sm) {
-      flex-direction: column;
+      display: block;
 
       .event-date,
       .event-name,
