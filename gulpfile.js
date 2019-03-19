@@ -7,7 +7,6 @@ var autoprefixer = require('gulp-autoprefixer');
 var pug = require('gulp-pug');
 var data = require('gulp-data');
 var plumber = require('gulp-plumber');
-var yaml = require('gulp-yaml');
 var fs = require('fs');
 
 var paths = {
@@ -27,8 +26,6 @@ gulp.task('watch', function() {
 
 gulp.task('data', function() {
   gulp.src(paths.data)
-    .pipe(yaml({schema: 'DEFAULT_SAFE_SCHEMA'}))
-    .pipe(gulp.dest('./data/'))
 });
 
 gulp.task('build', function() {
@@ -60,6 +57,10 @@ gulp.task('web', function() {
 
 gulp.task('ics', function() {
   gulp.src(paths.ics)
+    .pipe(plumber())
+    .pipe(data(function(file) {
+      return { require: require };
+    }))
     .pipe(pug({
       pretty: true
     }))

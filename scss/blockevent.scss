@@ -8,8 +8,8 @@
       color: $dark-color;
       font-size: 1.2rem;
       font-weight: 700;
-      line-height: 1.8rem;
-
+      line-height: 2.2rem;
+      margin-right: 2rem;
       text-transform: uppercase;
     }
 
@@ -28,7 +28,7 @@
     }
 
     .navbar-section {
-      @media screen and (max-width: $size-md) {
+      @media screen and (max-width: $size-sm) {
         justify-content: flex-start !important;
       }
     }

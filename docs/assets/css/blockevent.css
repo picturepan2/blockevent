@@ -2,7 +2,8 @@
   color: #202020;
   font-size: 1.2rem;
   font-weight: 700;
-  line-height: 1.8rem;
+  line-height: 2.2rem;
+  margin-right: 2rem;
   text-transform: uppercase;
 }
 
@@ -20,7 +21,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 600px) {
   .section-header .navbar .navbar-section {
     -ms-flex-pack: start !important;
     justify-content: flex-start !important;
