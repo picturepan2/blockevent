@@ -44,7 +44,7 @@
   description: Blockchain Summit Frankfurt is the leading blockchain for business event in Europe. Connecting over 1,500 industry leaders, business decision makers and tech innovators, Blockchain Summit Frankfurt is a 1 day conference and exhibition dedicated to the business of blockchain and distributed ledger technology (DLT). Based on unrivalled content, 80 visionary speakers and exceptional networking opportunities, Blockchain Summit Frankfurt is a must-attend event to understand the challenges and opportunities of our blockchain future.
   highlight: false
 -
-  name: CV Summit 2019/
+  name: CV Summit 2019
   url: https://blockchainsummit.ch/events/zug-2019//
   date: 
     start: 2019/03/26
@@ -215,7 +215,7 @@
   description: ~
   highlight: false
 -
-  name: Blockchain Life 2019/
+  name: Blockchain Life 2019
   url: https://blockchain-life.com/asia/en/
   date: 
     start: 2019/04/23
@@ -242,7 +242,7 @@
   description: ~
   highlight: false
 -
-  name: European Payment Summit 2019/
+  name: European Payment Summit 2019
   url: http://europeanpaymentsummit.com/
   date: 
     start: 2019/04/25
@@ -278,7 +278,7 @@
   description: ~
   highlight: false
 -
-  name: Trading Show Chicago 2019/
+  name: Trading Show Chicago 2019
   url: https://www.terrapinn.com/conference/trading-show-chicago/
   date: 
     start: 2019/05/08
@@ -332,7 +332,7 @@
   description: ~
   highlight: false
 -
-  name: European Blockchain Convention 2019/
+  name: European Blockchain Convention 2019
   url: http://eblockchainconvention.com/nordic/
   date: 
     start: 2019/05/20
@@ -341,7 +341,7 @@
   description: ~
   highlight: false
 -
-  name: Energy Unblocked 2019/
+  name: Energy Unblocked 2019
   url: https://unblockedevents.com/events/energy-unblocked-2019/
   date: 
     start: 2019/05/20
@@ -350,7 +350,7 @@
   description: ~
   highlight: false
 -
-  name: Crypto Challenge Forum 2019/
+  name: Crypto Challenge Forum 2019
   url: https://cc-forum.com/
   date: 
     start: 2019/05/22
@@ -386,7 +386,7 @@
   description: ~
   highlight: false
 -
-  name: CoinsBank Blockchain Cruise 2019/
+  name: CoinsBank Blockchain Cruise 2019
   url: https://coinsbank.cruises/
   date: 
     start: 2019/06/09
@@ -413,7 +413,7 @@
   description: ~
   highlight: false
 -
-  name: UNCHAIN Convention 2019/
+  name: UNCHAIN Convention 2019
   url: https://www.unchain-convention.com/
   date: 
     start: 2019/06/14
