@@ -9,10 +9,19 @@ async function run() {
   var results = yaml.parse(file);
 
   for (var i = 0 in results) {
+    // Add hash
     results[i].hash = md5(results[i].name);
-    var datetime = new Date(results[i].date.start);
-    var dtstamp = date.addDays(datetime, -1);
+    // Change date format
+    let dstart = new Date(results[i].date.start);
+    let dend = new Date(results[i].date.end);
+    let datestart = date.format(dstart, 'YYYYMMDDTHHmmss', true);
+    let dateend = date.format(dend, 'YYYYMMDDTHHmmss', true);
+    let dtstamp = datestart;
+    
     results[i].date.dtstamp = dtstamp;
+    results[i].date.start = datestart;
+    results[i].date.end = dateend;
+
     console.log(results[i]);
   }
 
