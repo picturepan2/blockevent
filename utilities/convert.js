@@ -14,13 +14,20 @@ async function run() {
     // Change date format
     let dstart = new Date(results[i].date.start);
     let dend = new Date(results[i].date.end);
-    let datestart = date.format(dstart, 'YYYYMMDDTHHmmss', true);
-    let dateend = date.format(dend, 'YYYYMMDDTHHmmss', true);
+    let datestart = date.format(dstart, 'YYYYMMDDTHHmmss');
+    let dateend = date.format(dend, 'YYYYMMDDTHHmmss');
     let dtstamp = datestart;
     
     results[i].date.dtstamp = dtstamp;
     results[i].date.start = datestart;
     results[i].date.end = dateend;
+
+    // Add human readable date
+    if (!date.isSameDay(dstart, dend)) {
+      results[i].date.human = date.format(dstart, 'MMM D') + ' - ' + date.format(dend, 'MMM D');
+    } else {
+      results[i].date.human = date.format(dstart, 'MMM D');
+    }
 
     console.log(results[i]);
   }

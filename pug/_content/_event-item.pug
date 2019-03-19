@@ -4,9 +4,7 @@ each event in events
   if event.highlight == true
     .blockevent-item.highlight
       .event-date
-        | #{event.date.start}
-        if (event.date.end != event.date.start)
-          |  - #{event.date.end}
+        | #{event.date.human}
       .event-name
         a(href=event.url+'?utm_source=blockevent.co' target='_blank')
           | #{event.name}
@@ -18,9 +16,7 @@ each event in events
   else
     .blockevent-item
       .event-date
-        | #{event.date.start}
-        if (event.date.end != event.date.start)
-          |  - #{event.date.end}
+        | #{event.date.human}
       .event-name
         a(href=event.url+'?utm_source=blockevent.co' target='_blank')
           | #{event.name}
