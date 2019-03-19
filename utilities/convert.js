@@ -14,9 +14,9 @@ async function run() {
     // Change date format
     let dstart = new Date(results[i].date.start);
     let dend = new Date(results[i].date.end);
-    let datestart = date.format(dstart, 'YYYYMMDDTHHmmss');
-    let dateend = date.format(dend, 'YYYYMMDDTHHmmss');
-    let dtstamp = datestart;
+    let datestart = date.format(dstart, 'YYYYMMDD');
+    let dateend = date.format(dend, 'YYYYMMDD');
+    let dtstamp = date.format(dstart, 'YYYYMMDDTHHmmss');
     
     results[i].date.dtstamp = dtstamp;
     results[i].date.start = datestart;
