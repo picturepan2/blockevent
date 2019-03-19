@@ -1,4 +1,31 @@
 -
+  name: Blockpass Security Token Seminar
+  url: https://www.blockpass.org/events/blockpass-seminar-security-tokens-hk/
+  date:
+    start: 20190315
+    end: 20190315
+  location: Hong Kong, China
+  description: ~
+  highlight: false
+-
+  name: Crypto Current Conference
+  url: https://crypto-currentconf.co/
+  date:
+    start: 20190315
+    end: 20190315
+  location: New Orleans, LA
+  description: ~
+  highlight: false
+-
+  name: International Conference on Blockchain Technology 2019
+  url: http://www.icbct.org/
+  date:
+    start: 20190315
+    end: 20190318
+  location: Honolulu, HI
+  description: ~
+  highlight: true
+-
   name: Money20/20 Asia
   url: https://asia.money2020.com/
   date:
@@ -35,7 +62,7 @@
   description: ~
   highlight: false
 -
-  name: Blockchain Summit Frankfurt 2019/
+  name: Blockchain Summit Frankfurt 2019
   url: https://blockchainsummitfrankfurt.com/
   date: 
     start: 2019/03/25
@@ -45,7 +72,7 @@
   highlight: false
 -
   name: CV Summit 2019
-  url: https://blockchainsummit.ch/events/zug-2019//
+  url: https://blockchainsummit.ch/events/zug-2019/
   date: 
     start: 2019/03/26
     end: 2019/03/27
@@ -90,7 +117,7 @@
   highlight: false
 -
   name: CryptoBlockCon Los Angeles
-  url: https://www.cryptoblockcon.com/los-angeles-april-2019//
+  url: https://www.cryptoblockcon.com/los-angeles-april-2019/
   date: 
     start: 2019/04/03
     end: 2019/04/04
@@ -98,7 +125,7 @@
   description: ~
   highlight: false
 -
-  name: 2019/ Fintech & Financing Conference and Expo
+  name: 2019 Fintech & Financing Conference and Expo
   url: https://fintechandfunding.com/
   date: 
     start: 2019/04/03
@@ -125,7 +152,7 @@
   description: ~
   highlight: false
 -
-  name: CoinFestUK 2019/
+  name: CoinFestUK 2019
   url: https://coinfestuk.org/CF2019/
   date: 
     start: 2019/04/04
@@ -134,10 +161,10 @@
   description: ~
   highlight: false
 -
-  name: DAPPCON 2019/
+  name: DAPPCON 2019
   url: https://dappcon.net/
   date: 
-    start: 2019/04/05/
+    start: 2019/04/05
     end: 2019/04/09
   location: San Francisco, CA
   description: ~
@@ -306,7 +333,7 @@
   highlight: true
 -
   name: Construct
-  url: https://www.coindesk.com/events/consensus-2019//construct
+  url: https://www.coindesk.com/events/consensus-2019/construct
   date: 
     start: 2019/05/13
     end: 2019/05/15
@@ -494,7 +521,7 @@
   description: ~
   highlight: false
 -
-  name: Blockchain Live 2019/
+  name: Blockchain Live 2019
   url: https://blockchainlive.com/
   date: 
     start: 2019/09/25

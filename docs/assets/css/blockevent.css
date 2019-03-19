@@ -66,6 +66,10 @@
   text-transform: uppercase;
 }
 
+.blockevent-content .blockevent-list .blockevent-item {
+  display: none;
+}
+
 .blockevent-content .blockevent-item {
   align-items: center;
   background: #f9f9f9;

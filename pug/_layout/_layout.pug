@@ -30,14 +30,39 @@ html(lang='en')
     meta(property='og:title' content= title)
     meta(property='og:description' content= description)
     meta(name='twitter:card' content='summary')
-    if parent = 'index'
-      link(rel='stylesheet' href='assets/css/spectre.min.css')
-      link(rel='stylesheet' href='assets/css/blockevent.min.css')
-    else
-      link(rel='stylesheet' href='../assets/css/spectre.min.css')
-      link(rel='stylesheet' href='../assets/css/blockevent.min.css')
+    link(rel='stylesheet' href='assets/css/spectre.min.css')
+    link(rel='stylesheet' href='assets/css/blockevent.min.css')
+    script(src='assets/js/zepto.min.js')
     link(rel='canonical' href= url)
-    
+    script.
+      Zepto(function($){
+        var today = new Date(),
+            year = '' + today.getFullYear(),
+            month = '' + (today.getMonth() + 1),
+            date = '' + today.getDate();
+        if (month.length < 2) month = '0' + month;
+        if (date.length < 2) date = '0' + date;
+        today = year + month + date;
+        console.log(today);
+
+        $('.blockevent-item').each(function(index){
+          if ($(this).attr('data-date') >= today) {
+            $(this).css('display', 'flex')
+          }
+        })
+      })
+
+      
+      
+      //- for (var i = 0; i < 9; i++) {
+      //-   console.log(elements[i]);
+      //-   var tempdate = elements[i].getAttribute('data-date');
+      //-   if (tempdate < today) {
+      //-     elements[i].style.display = 'none';
+      //-   }
+      //-   console.log(tempdate);
+      //- }
+
   body
     block content
 

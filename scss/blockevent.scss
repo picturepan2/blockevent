@@ -68,6 +68,12 @@
     text-transform: uppercase;
   }
 
+  .blockevent-list {
+    .blockevent-item {
+      display: none;
+    }
+  }
+
   .blockevent-item {
     align-items: center;
     background: $bg-color;

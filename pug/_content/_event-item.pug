@@ -2,8 +2,8 @@
 
 each event in events
   if event.highlight == true
-    .blockevent-item.highlight
-      time.event-date(datetime=event.date.start)
+    .blockevent-item.highlight(data-date=event.date.start)
+      .event-date
         | #{event.date.human}
       .event-name
         a(href=event.url+'?utm_source=blockevent.co' target='_blank')
@@ -14,7 +14,7 @@ each event in events
         a.btn.btn-sm.btn-primary(href=event.url+'?utm_source=blockevent.co' target='_blank')
           | Register
   else
-    .blockevent-item
+    .blockevent-item(data-date=event.date.start)
       .event-date
         | #{event.date.human}
       .event-name
