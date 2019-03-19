@@ -18,14 +18,9 @@ var paths = {
 
 gulp.task('watch', function() {
   gulp.watch('./**/*.scss', ['build']);
-  gulp.watch('./**/*.yml', ['data']);
   gulp.watch('./**/*.pug', ['web']);
   gulp.watch('./**/*.json', ['web', 'ics']);
   gulp.watch('./ical/*.pug', ['ics']);
-});
-
-gulp.task('data', function() {
-  gulp.src(paths.data)
 });
 
 gulp.task('build', function() {
@@ -70,4 +65,4 @@ gulp.task('ics', function() {
     .pipe(gulp.dest('./docs/ical'));
 });
 
-gulp.task('default', ['build', 'data', 'web', 'ics']);
+gulp.task('default', ['build', 'web', 'ics']);
