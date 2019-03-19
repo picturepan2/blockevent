@@ -16,6 +16,7 @@
     "convert": "node utilities/convert.js"
   },
   "devDependencies": {
+    "date-and-time": "^0.6.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "latest",
     "gulp-clean-css": "latest",

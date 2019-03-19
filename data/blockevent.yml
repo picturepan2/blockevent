@@ -2,8 +2,8 @@
   name: Money20/20 Asia
   url: https://asia.money2020.com/
   date:
-    start: 20190319
-    end: 20190321
+    start: 2019/03/19
+    end: 2019/03/21
   location: Singapore
   description: ~
   highlight: false
@@ -11,8 +11,8 @@
   name: World Blockchain Summit Nairobi
   url: https://nairobi.worldblockchainsummit.com/
   date:
-    start: 20190320
-    end: 20190321
+    start: 2019/03/20
+    end: 2019/03/21
   location: Nairobi, Kenya
   description: ~
   highlight: false
@@ -20,8 +20,8 @@
   name: Blockchain & Bitcoin Conference Prague
   url: https://prague.bc.events/
   date:
-    start: 20190322
-    end: 20190322
+    start: 2019/03/22
+    end: 2019/03/22
   location: Prague, Czech Republic
   description: ~
   highlight: false
@@ -29,26 +29,26 @@
   name: Crypto Expo Asia in Dubai
   url: https://dubai.cryptoexpo.asia/
   date:
-    start: 20190323
-    end: 20190329
+    start: 2019/03/23
+    end: 2019/03/29
   location: Dubai, UAE
   description: ~
   highlight: false
 -
-  name: Blockchain Summit Frankfurt 2019
+  name: Blockchain Summit Frankfurt 2019/
   url: https://blockchainsummitfrankfurt.com/
   date: 
-    start: 20190325
-    end: 20190326
+    start: 2019/03/25
+    end: 2019/03/26
   location: Frankfurt, Germany
   description: Blockchain Summit Frankfurt is the leading blockchain for business event in Europe. Connecting over 1,500 industry leaders, business decision makers and tech innovators, Blockchain Summit Frankfurt is a 1 day conference and exhibition dedicated to the business of blockchain and distributed ledger technology (DLT). Based on unrivalled content, 80 visionary speakers and exceptional networking opportunities, Blockchain Summit Frankfurt is a must-attend event to understand the challenges and opportunities of our blockchain future.
   highlight: false
 -
-  name: CV Summit 2019
-  url: https://blockchainsummit.ch/events/zug-2019/
+  name: CV Summit 2019/
+  url: https://blockchainsummit.ch/events/zug-2019//
   date: 
-    start: 20190326
-    end: 20190327
+    start: 2019/03/26
+    end: 2019/03/27
   location: Casino Zug, Switzerland
   description: ~
   highlight: false
@@ -56,8 +56,8 @@
   name: TF Blockchain 3
   url: https://www.tfblock.io/
   date: 
-    start: 20190328
-    end: 20190328
+    start: 2019/03/28
+    end: 2019/03/28
   location: Seattle, WA
   description: ~
   highlight: false
@@ -65,8 +65,8 @@
   name: BlockHealth Summit
   url: http://blockhealthsummit.org/
   date: 
-    start: 20190401
-    end: 20190403
+    start: 2019/04/01
+    end: 2019/04/03
   location: Dubai, UAE
   description: ~
   highlight: false
@@ -74,8 +74,8 @@
   name: Future Blockchain Summit
   url: https://www.futureblockchainsummit.com/
   date: 
-    start: 20190402
-    end: 20190403
+    start: 2019/04/02
+    end: 2019/04/03
   location: Dubai, UAE
   description: ~
   highlight: false
@@ -83,35 +83,35 @@
   name: Blockchain Summit Austria
   url: https://www.blockchainsummitaustria.com/
   date: 
-    start: 20190402
-    end: 20190403
+    start: 2019/04/02
+    end: 2019/04/03
   location: Vienna, Austria
   description: ~
   highlight: false
 -
   name: CryptoBlockCon Los Angeles
-  url: https://www.cryptoblockcon.com/los-angeles-april-2019/
+  url: https://www.cryptoblockcon.com/los-angeles-april-2019//
   date: 
-    start: 20190403
-    end: 20190404
+    start: 2019/04/03
+    end: 2019/04/04
   location: Los Angeles, CA
   description: ~
   highlight: false
 -
-  name: 2019 Fintech & Financing Conference and Expo
+  name: 2019/ Fintech & Financing Conference and Expo
   url: https://fintechandfunding.com/
   date: 
-    start: 20190403
-    end: 20190404
+    start: 2019/04/03
+    end: 2019/04/04
   location: Toronto, Canada
   description: ~
   highlight: false
 -
-  name: Deconomy Seoul 2019
-  url: https://deconomy.com/seoul2019/
+  name: Deconomy Seoul 2019/
+  url: https://deconomy.com/seoul2019//
   date: 
-    start: 20190404
-    end: 20190405
+    start: 2019/04/04
+    end: 2019/04/05/
   location: Seoul, South Korea
   description: ~
   highlight: false
@@ -119,26 +119,26 @@
   name: Blockchain Las Vegas
   url: https://blv.keynote.ae/
   date: 
-    start: 20190404
-    end: 20190406
+    start: 2019/04/04
+    end: 2019/04/06
   location: Las Vegas, NV
   description: ~
   highlight: false
 -
-  name: CoinFestUK 2019
-  url: https://coinfestuk.org/CF2019/
+  name: CoinFestUK 2019/
+  url: https://coinfestuk.org/CF2019//
   date: 
-    start: 20190404
-    end: 20190406
+    start: 2019/04/04
+    end: 2019/04/06
   location: Manchester, UK
   description: ~
   highlight: false
 -
-  name: DAPPCON 2019
+  name: DAPPCON 2019/
   url: https://dappcon.net/
   date: 
-    start: 20190405
-    end: 20190409
+    start: 2019/04/05/
+    end: 2019/04/09
   location: San Francisco, CA
   description: ~
   highlight: false
@@ -146,8 +146,8 @@
   name: TEAMZ Blockchain Summit
   url: https://summit.teamz.co.jp/
   date: 
-    start: 20190406
-    end: 20190407
+    start: 2019/04/06
+    end: 2019/04/07
   location: Tokyo, Japan
   description: ~
   highlight: false
@@ -155,8 +155,8 @@
   name: Security Token Summit
   url: https://securitytokensummit.com/
   date: 
-    start: 20190408
-    end: 20190408
+    start: 2019/04/08
+    end: 2019/04/08
   location: Los Angeles, CA
   description: ~
   highlight: false
@@ -164,8 +164,8 @@
   name: Crypto Invest Summit
   url: https://cis.la/
   date: 
-    start: 20190409
-    end: 20190410
+    start: 2019/04/09
+    end: 2019/04/10
   location: Los Angeles, CA
   description: ~
   highlight: false
@@ -173,8 +173,8 @@
   name: Chain Plus Asia Pacific Blockchain New Finance Summit
   url: http://chainplus-finance.com/
   date: 
-    start: 20190411
-    end: 20190412
+    start: 2019/04/11
+    end: 2019/04/12
   location: Singapore
   description: ~
   highlight: true
@@ -182,17 +182,17 @@
   name: Stockholm Blockchain Forum
   url: http://stockholmblockchainforum.com/
   date: 
-    start: 20190411
-    end: 20190411
+    start: 2019/04/11
+    end: 2019/04/11
   location: Stockholm, Sweden
   description: ~
   highlight: false
 -
   name: NEXT BLOCK Conference
-  url: https://kryptonevents.com/sofia-2019
+  url: https://kryptonevents.com/sofia-2019/
   date: 
-    start: 20190412
-    end: 20190412
+    start: 2019/04/12
+    end: 2019/04/12
   location: Sofia, Bulgaria
   description: ~
   highlight: false
@@ -200,8 +200,8 @@
   name: Paris Blockchain Week
   url: https://www.blockchainweekparis.com/
   date: 
-    start: 20190413
-    end: 20190419
+    start: 2019/04/13
+    end: 2019/04/19
   location: Paris, France
   description: ~
   highlight: false
@@ -209,17 +209,17 @@
   name: Paris Blockchain Week Summit
   url: https://b10paris.com/
   date: 
-    start: 20190416
-    end: 20190417
+    start: 2019/04/16
+    end: 2019/04/17
   location: Paris, France
   description: ~
   highlight: false
 -
-  name: Blockchain Life 2019
+  name: Blockchain Life 2019/
   url: https://blockchain-life.com/asia/en/
   date: 
-    start: 20190423
-    end: 20190424
+    start: 2019/04/23
+    end: 2019/04/24
   location: Singapore
   description: ~
   highlight: false
@@ -227,8 +227,8 @@
   name: Blockchain Revolution Global
   url: https://blockchainrevolutionglobal.com/
   date:
-    start: 20190424
-    end: 20190425
+    start: 2019/04/24
+    end: 2019/04/25
   location: Toronto, Canada
   description: ~
   highlight: false
@@ -236,17 +236,17 @@
   name: Blockpass Security Token Seminar
   url: https://www.blockpass.org/events/blockpass-seminar-security-tokens-london/
   date: 
-    start: 20190424
-    end: 20190424
+    start: 2019/04/24
+    end: 2019/04/24
   location: London, UK
   description: ~
   highlight: false
 -
-  name: European Payment Summit 2019
+  name: European Payment Summit 2019/
   url: http://europeanpaymentsummit.com/
   date: 
-    start: 20190425
-    end: 20190426
+    start: 2019/04/25
+    end: 2019/04/26
   location: The Hague, Netherlands
   description: ~
   highlight: false
@@ -254,8 +254,8 @@
   name: Crypto Games Conference
   url: https://cryptogames.events/
   date: 
-    start: 20190425
-    end: 20190426
+    start: 2019/04/25
+    end: 2019/04/26
   location: Minsk, Belarus
   description: ~
   highlight: false
@@ -263,8 +263,8 @@
   name: Global Blockchain Summit
   url: http://globalbcsummit.eu/
   date: 
-    start: 20190429
-    end: 20190430
+    start: 2019/04/29
+    end: 2019/04/30
   location: Ljubljana, Slovenia
   description: ~
   highlight: false
@@ -272,17 +272,17 @@
   name: Blockchain for Finance Conference
   url: http://blockchainapac.fintecnet.com/
   date: 
-    start: 20190507
-    end: 20190508
+    start: 2019/05/07
+    end: 2019/05/08
   location: Singapore
   description: ~
   highlight: false
 -
-  name: Trading Show Chicago 2019
+  name: Trading Show Chicago 2019/
   url: https://www.terrapinn.com/conference/trading-show-chicago/
   date: 
-    start: 20190508
-    end: 20190509
+    start: 2019/05/08
+    end: 2019/05/09
   location: Chicago, IL
   description: ~
   highlight: false
@@ -290,26 +290,26 @@
   name: Bitcoin Live Fireside Chat
   url: https://bitcoin.live/firesidechat
   date: 
-    start: 20190514
-    end: 20190514
+    start: 2019/05/14
+    end: 2019/05/14
   location: New York, NY
   description: ~
   highlight: false
 -
   name: Consensus
-  url: https://www.coindesk.com/events/consensus-2019
+  url: https://www.coindesk.com/events/consensus-2019/
   date: 
-    start: 20190513
-    end: 20190515
+    start: 2019/05/13
+    end: 2019/05/15
   location: New York, NY
   description: ~
   highlight: true
 -
   name: Construct
-  url: https://www.coindesk.com/events/consensus-2019/construct
+  url: https://www.coindesk.com/events/consensus-2019//construct
   date: 
-    start: 20190513
-    end: 20190515
+    start: 2019/05/13
+    end: 2019/05/15
   location: New York, NY
   description: ~
   highlight: false
@@ -317,8 +317,8 @@
   name: Digital Asset Summit
   url: https://www.digitalassetsummit.io/
   date: 
-    start: 20190515
-    end: 20190515
+    start: 2019/05/15
+    end: 2019/05/15
   location: New York, NY
   description: ~
   highlight: false
@@ -326,35 +326,35 @@
   name: Token Summit IV
   url: http://tokensummit.com/
   date: 
-    start: 20190516
-    end: 20190516
+    start: 2019/05/16
+    end: 2019/05/16
   location: New York, NY
   description: ~
   highlight: false
 -
-  name: European Blockchain Convention 2019
+  name: European Blockchain Convention 2019/
   url: http://eblockchainconvention.com/nordic/
   date: 
-    start: 20190520
-    end: 20190520
+    start: 2019/05/20
+    end: 2019/05/20
   location: Copenhagen, Denmark
   description: ~
   highlight: false
 -
-  name: Energy Unblocked 2019
-  url: https://unblockedevents.com/events/energy-unblocked-2019/
+  name: Energy Unblocked 2019/
+  url: https://unblockedevents.com/events/energy-unblocked-2019//
   date: 
-    start: 20190520
-    end: 20190520
+    start: 2019/05/20
+    end: 2019/05/20
   location: London, UK
   description: ~
   highlight: false
 -
-  name: Crypto Challenge Forum 2019
+  name: Crypto Challenge Forum 2019/
   url: https://cc-forum.com/
   date: 
-    start: 20190522
-    end: 20190525
+    start: 2019/05/22
+    end: 2019/05/25
   location: Malta
   description: ~
   highlight: false
@@ -362,8 +362,8 @@
   name: Malta AI & Blockchain Summit
   url: https://maltablockchainsummit.com/
   date: 
-    start: 20190523
-    end: 20190524
+    start: 2019/05/23
+    end: 2019/05/24
   location: Malta
   description: ~
   highlight: false
@@ -371,8 +371,8 @@
   name: Monaco Blockchain Masterclass
   url: https://www.theblock.events/
   date: 
-    start: 20190531
-    end: 20190531
+    start: 2019/05/31
+    end: 2019/05/31
   location: Monte Carlo, Monaco
   description: ~
   highlight: false
@@ -380,17 +380,17 @@
   name: Blockchain for Financial Services Global Summit
   url: https://finserv-blockchain.com/
   date: 
-    start: 20190604
-    end: 20190605
+    start: 2019/06/04
+    end: 2019/06/05
   location: Toronto, Canada
   description: ~
   highlight: false
 -
-  name: CoinsBank Blockchain Cruise 2019
+  name: CoinsBank Blockchain Cruise 2019/
   url: https://coinsbank.cruises/
   date: 
-    start: 20190609
-    end: 20190613
+    start: 2019/06/09
+    end: 2019/06/13
   location: Barcelona, Spain
   description: ~
   highlight: false
@@ -398,8 +398,8 @@
   name: CryptoConf
   url: https://websummit.com/moneyconf/
   date: 
-    start: 20190610
-    end: 20190612
+    start: 2019/06/10
+    end: 2019/06/12
   location: Dublin, Ireland
   description: ~
   highlight: false
@@ -407,17 +407,17 @@
   name: Blockchain Summit London
   url: https://blockchainsummitlondon.com/
   date: 
-    start: 20190610
-    end: 20190612
+    start: 2019/06/10
+    end: 2019/06/12
   location: London, UK
   description: ~
   highlight: false
 -
-  name: UNCHAIN Convention 2019
+  name: UNCHAIN Convention 2019/
   url: https://www.unchain-convention.com
   date: 
-    start: 20190614
-    end: 20190615
+    start: 2019/06/14
+    end: 2019/06/15
   location: Berlin, Germany
   description: ~
   highlight: false
@@ -425,8 +425,8 @@
   name: A.I. Blockchain Summit
   url: https://washingtonelite.com/
   date: 
-    start: 20190621
-    end: 20190622
+    start: 2019/06/21
+    end: 2019/06/22
   location: Washington, DC
   description: ~
   highlight: false
@@ -434,17 +434,17 @@
   name: Crypto Valley Conference
   url: https://www.cryptovalleyconference.com/
   date: 
-    start: 20190624
-    end: 20190625
+    start: 2019/06/24
+    end: 2019/06/25
   location: Zug, Switzerland
   description: ~
   highlight: false
 -
-  name: Bitcoin 2019
-  url: https://www.bitcoin2019conference.com/
+  name: Bitcoin 2019/
+  url: https://www.bitcoin2019/conference.com/
   date: 
-    start: 20190625
-    end: 20190626
+    start: 2019/06/25
+    end: 2019/06/26
   location: San Francisco, CA
   description: ~
   highlight: false
@@ -452,26 +452,26 @@
   name: Blockchain Summit London
   url: https://blockchainsummitlondon.com/
   date: 
-    start: 20190625
-    end: 20190626
+    start: 2019/06/25
+    end: 2019/06/26
   location: London, UK
   description: ~
   highlight: false
 -
   name: Barcelona Trading Conference
-  url: https://btconf.io/2019/
+  url: https://btconf.io/2019//
   date: 
-    start: 20190710
-    end: 20190711
+    start: 2019/07/10
+    end: 2019/07/11
   location: Barcelona, Spain
   description: ~
   highlight: false
 -
   name: CryptoBlockCon New York
-  url: https://www.cryptoblockcon.com/new-york-august-2019/
+  url: https://www.cryptoblockcon.com/new-york-august-2019//
   date: 
-    start: 20190813
-    end: 20190814
+    start: 2019/08/13
+    end: 2019/08/14
   location: New York, NY
   description: ~
   highlight: false
@@ -479,35 +479,35 @@
   name: Blockchain Summit Singapore
   url: https://www.blockchainsummitsingapore.com/
   date: 
-    start: 20190825
-    end: 20190826
+    start: 2019/08/25
+    end: 2019/08/26
   location: Suntec, Singapore
   description: ~
   highlight: false
 -
   name: CryptoBlockCon London
-  url: https://www.cryptoblockcon.com/london-september-2019/
+  url: https://www.cryptoblockcon.com/london-september-2019//
   date:
-    start: 20190923
-    end: 20190924
+    start: 2019/09/23
+    end: 2019/09/24
   location: London, UK
   description: ~
   highlight: false
 -
-  name: Blockchain Live 2019
+  name: Blockchain Live 2019/
   url: https://blockchainlive.com/
   date: 
-    start: 20190925
-    end: 20190925
+    start: 2019/09/25
+    end: 2019/09/25
   location: London, UK
   description: ~
   highlight: false
 -
   name: Money20/20 USA
-  url: https://us.money2020.com/2019
+  url: https://us.money2020.com/2019/
   date: 
-    start: 20191027
-    end: 20191030
+    start: 2019/10/27
+    end: 2019/10/30
   location: Las Vegas, NV
   description: ~
   highlight: false
@@ -515,8 +515,8 @@
   name: World Crypto Conference
   url: https://worldcryptocon.com/
   date: 
-    start: 20191029
-    end: 20191031
+    start: 2019/10/29
+    end: 2019/10/31
   location: Las Vegas, NV
   description: ~
   highlight: false
@@ -524,26 +524,17 @@
   name: Malta AI & Blockchain Summit
   url: https://maltablockchainsummit.com/
   date: 
-    start: 20191107
-    end: 20191108
+    start: 2019/11/07
+    end: 2019/11/08
   location: Malta
   description: ~
   highlight: false
 -
   name: CryptoBlockCon Las Vegas
-  url: https://www.cryptoblockcon.com/las-vegas-december-2019/
+  url: https://www.cryptoblockcon.com/las-vegas-december-2019//
   date: 
-    start: 20191210
-    end: 20191211
-  location: Las Vegas, NV
-  description: ~
-  highlight: false
--
-  name: TEST
-  url: https://www.blockevent.co
-  date: 
-    start: 20190410
-    end: 20190411
+    start: 2019/12/10
+    end: 2019/12/11
   location: Las Vegas, NV
   description: ~
   highlight: false

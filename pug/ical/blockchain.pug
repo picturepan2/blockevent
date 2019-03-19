@@ -10,7 +10,7 @@
 each event in events
   | BEGIN:VEVENT
   | UID:#{event.hash}@blockevent.co
-  | DTSTAMP;VALUE=DATE-TIME:20180306T010000Z
+  | DTSTAMP;VALUE=DATE-TIME:#{event.date.dtstamp}
   | DTSTART;VALUE=DATE:#{event.date.start}
   | DTEND;VALUE=DATE:#{event.date.end}
   | X-FUNAMBOL-ALLDAY:1
