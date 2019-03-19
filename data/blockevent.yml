@@ -107,8 +107,8 @@
   description: ~
   highlight: false
 -
-  name: Deconomy Seoul 2019/
-  url: https://deconomy.com/seoul2019//
+  name: Deconomy Seoul 2019
+  url: https://deconomy.com/seoul2019/
   date: 
     start: 2019/04/04
     end: 2019/04/05/
@@ -126,7 +126,7 @@
   highlight: false
 -
   name: CoinFestUK 2019/
-  url: https://coinfestuk.org/CF2019//
+  url: https://coinfestuk.org/CF2019/
   date: 
     start: 2019/04/04
     end: 2019/04/06
@@ -288,7 +288,7 @@
   highlight: false
 -
   name: Bitcoin Live Fireside Chat
-  url: https://bitcoin.live/firesidechat
+  url: https://bitcoin.live/firesidechat/
   date: 
     start: 2019/05/14
     end: 2019/05/14
@@ -342,7 +342,7 @@
   highlight: false
 -
   name: Energy Unblocked 2019/
-  url: https://unblockedevents.com/events/energy-unblocked-2019//
+  url: https://unblockedevents.com/events/energy-unblocked-2019/
   date: 
     start: 2019/05/20
     end: 2019/05/20
@@ -414,7 +414,7 @@
   highlight: false
 -
   name: UNCHAIN Convention 2019/
-  url: https://www.unchain-convention.com
+  url: https://www.unchain-convention.com/
   date: 
     start: 2019/06/14
     end: 2019/06/15
@@ -440,8 +440,8 @@
   description: ~
   highlight: false
 -
-  name: Bitcoin 2019/
-  url: https://www.bitcoin2019/conference.com/
+  name: Bitcoin 2019
+  url: https://www.bitcoin2019conference.com/
   date: 
     start: 2019/06/25
     end: 2019/06/26
@@ -459,7 +459,7 @@
   highlight: false
 -
   name: Barcelona Trading Conference
-  url: https://btconf.io/2019//
+  url: https://btconf.io/2019/
   date: 
     start: 2019/07/10
     end: 2019/07/11
@@ -468,7 +468,7 @@
   highlight: false
 -
   name: CryptoBlockCon New York
-  url: https://www.cryptoblockcon.com/new-york-august-2019//
+  url: https://www.cryptoblockcon.com/new-york-august-2019/
   date: 
     start: 2019/08/13
     end: 2019/08/14
@@ -486,7 +486,7 @@
   highlight: false
 -
   name: CryptoBlockCon London
-  url: https://www.cryptoblockcon.com/london-september-2019//
+  url: https://www.cryptoblockcon.com/london-september-2019/
   date:
     start: 2019/09/23
     end: 2019/09/24
@@ -531,7 +531,7 @@
   highlight: false
 -
   name: CryptoBlockCon Las Vegas
-  url: https://www.cryptoblockcon.com/las-vegas-december-2019//
+  url: https://www.cryptoblockcon.com/las-vegas-december-2019/
   date: 
     start: 2019/12/10
     end: 2019/12/11

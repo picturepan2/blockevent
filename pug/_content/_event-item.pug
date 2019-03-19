@@ -3,7 +3,7 @@
 each event in events
   if event.highlight == true
     .blockevent-item.highlight
-      .event-date
+      time.event-date(datetime=event.date.start)
         | #{event.date.human}
       .event-name
         a(href=event.url+'?utm_source=blockevent.co' target='_blank')

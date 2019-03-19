@@ -99,10 +99,10 @@
 
 .blockevent-content .blockevent-item .event-date {
   color: #535353;
-  -ms-flex: 1 0 25%;
-  flex: 1 0 25%;
+  -ms-flex: 1 0 20%;
+  flex: 1 0 20%;
   padding: 0 .5rem 0 0;
-  width: 25%;
+  width: 20%;
 }
 
 .blockevent-content .blockevent-item .event-name {
