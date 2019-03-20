@@ -69,13 +69,11 @@
     text-transform: uppercase;
   }
 
-  .blockevent-list {
-    .blockevent-item {
-      display: none;
-    }
-  }
-
   .blockevent-item {
+    display: none;
+  }
+  
+  .blockevent-item.upcoming {
     align-items: center;
     background: $bg-color;
     display: flex;
@@ -143,7 +141,7 @@
     }
 
     @media screen and (max-width: $size-sm) {
-      display: block !important;
+      display: block;
 
       .event-date,
       .event-name,
@@ -171,7 +169,7 @@
     font-size: .6rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    padding: .5rem 0;
+    padding: .5rem .4rem;
     text-transform: uppercase;
   }
 
@@ -180,8 +178,6 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
-    position: sticky;
-    top: 0;
   }
 
   .sponsor-item {
@@ -210,15 +206,16 @@
 }
 
 #carbonads {
-  display: block;
-  overflow: hidden;
-  margin: 1rem auto;
-  max-width: var(--width);
-  text-align: center;
   background-color: $bg-color;
+  display: block;
   font-size: var(--font-size);
   line-height: 1.5;
-
+  margin: 1rem auto;
+  max-width: var(--width);
+  overflow: hidden;
+  padding: .5rem;
+  text-align: center;
+  
   a {
     color: inherit;
     text-decoration: none;
@@ -229,9 +226,9 @@
   }
 
   span {
-    position: relative;
     display: block;
     overflow: hidden;
+    position: relative;
   }
 }
 
@@ -256,17 +253,16 @@
 }
 
 .carbon-poweredby {
-  display: block;
-  padding: 10px var(--font-size);
   background: $bg-color;
-  text-transform: uppercase;
-  letter-spacing: .5px;
+  display: block;
   font-weight: 600;
   font-size: 9px;
-  line-height: 0;
+  letter-spacing: .5px;
+  padding: 10px var(--font-size);
+  text-transform: uppercase;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 759px) {
+@media only screen and (min-width: 320px) and (max-width: $size-md) {
   #carbonads {
     float: none;
     max-width: 18rem;
@@ -292,15 +288,15 @@
   .carbon-text {
     float: left;
     margin-bottom: 0;
+    max-width: calc(100% - 130px - 3em);
     padding: 8px 20px;
     text-align: left;
-    max-width: calc(100% - 130px - 3em);
   }
 
   .carbon-poweredby {
-    left: 130px;
     bottom: 0;
     display: block;
+    left: 130px;
     width: 100%;
   }
 }

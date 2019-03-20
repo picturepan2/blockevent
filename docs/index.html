@@ -29,7 +29,7 @@
       
         $('.blockevent-item').each(function(index){
           if ($(this).attr('data-end') >= today) {
-            $(this).css('display', 'flex')
+            $(this).addClass('upcoming')
           }
         })
       })

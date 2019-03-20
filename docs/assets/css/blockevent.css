@@ -67,11 +67,11 @@
   text-transform: uppercase;
 }
 
-.blockevent-content .blockevent-list .blockevent-item {
+.blockevent-content .blockevent-item {
   display: none;
 }
 
-.blockevent-content .blockevent-item {
+.blockevent-content .blockevent-item.upcoming {
   align-items: center;
   background: #f9f9f9;
   display: flex;
@@ -82,27 +82,27 @@
   position: relative;
 }
 
-.blockevent-content .blockevent-item:not(:last-child) {
+.blockevent-content .blockevent-item.upcoming:not(:last-child) {
   margin-bottom: .1rem;
 }
 
-.blockevent-content .blockevent-item:hover {
+.blockevent-content .blockevent-item.upcoming:hover {
   background: #f6f6f6;
 }
 
-.blockevent-content .blockevent-item.highlight {
+.blockevent-content .blockevent-item.upcoming.highlight {
   background: #f1eefc;
 }
 
-.blockevent-content .blockevent-item.highlight:hover {
+.blockevent-content .blockevent-item.upcoming.highlight:hover {
   background: #edeafb;
 }
 
-.blockevent-content .blockevent-item.highlight .event-name a {
+.blockevent-content .blockevent-item.upcoming.highlight .event-name a {
   color: #4b34dd;
 }
 
-.blockevent-content .blockevent-item .event-date {
+.blockevent-content .blockevent-item.upcoming .event-date {
   color: #535353;
   -ms-flex: 1 0 20%;
   flex: 1 0 20%;
@@ -110,7 +110,7 @@
   width: 20%;
 }
 
-.blockevent-content .blockevent-item .event-name {
+.blockevent-content .blockevent-item.upcoming .event-name {
   -ms-flex: 1 1 50%;
   flex: 1 1 50%;
   font-weight: 700;
@@ -118,11 +118,11 @@
   width: 50%;
 }
 
-.blockevent-content .blockevent-item .event-name a {
+.blockevent-content .blockevent-item.upcoming .event-name a {
   color: #202020;
 }
 
-.blockevent-content .blockevent-item .event-location {
+.blockevent-content .blockevent-item.upcoming .event-location {
   color: #535353;
   -ms-flex: 1 0 25%;
   flex: 1 0 25%;
@@ -130,31 +130,31 @@
   width: 25%;
 }
 
-.blockevent-content .blockevent-item .event-action {
+.blockevent-content .blockevent-item.upcoming .event-action {
   -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   text-align: right;
   width: 4rem;
 }
 
-.blockevent-content .blockevent-item .event-action .btn-sm {
+.blockevent-content .blockevent-item.upcoming .event-action .btn-sm {
   font-weight: 700;
   text-transform: uppercase;
   width: 4rem;
 }
 
 @media screen and (max-width: 600px) {
-  .blockevent-content .blockevent-item {
-    display: block !important;
+  .blockevent-content .blockevent-item.upcoming {
+    display: block;
   }
-  .blockevent-content .blockevent-item .event-date,
-  .blockevent-content .blockevent-item .event-name,
-  .blockevent-content .blockevent-item .event-location,
-  .blockevent-content .blockevent-item .event-action {
+  .blockevent-content .blockevent-item.upcoming .event-date,
+  .blockevent-content .blockevent-item.upcoming .event-name,
+  .blockevent-content .blockevent-item.upcoming .event-location,
+  .blockevent-content .blockevent-item.upcoming .event-action {
     padding: 0;
     width: 100%;
   }
-  .blockevent-content .blockevent-item .event-name {
+  .blockevent-content .blockevent-item.upcoming .event-name {
     font-size: 1rem;
     margin: .2rem 0;
   }
@@ -171,7 +171,7 @@
   font-size: .6rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  padding: .5rem 0;
+  padding: .5rem .4rem;
   text-transform: uppercase;
 }
 
@@ -182,9 +182,6 @@
   -ms-flex-direction: column;
   flex-direction: column;
   margin-bottom: 1rem;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
 }
 
 .blockevent-sidebar .sponsor-item {
@@ -217,10 +214,11 @@
   background-color: #f9f9f9;
   display: block;
   font-size: var(--font-size);
-  line-height: 1.5; 
+  line-height: 1.5;
   margin: 1rem auto;
   max-width: var(--width);
   overflow: hidden;
+  padding: .5rem;
   text-align: center;
 }
 
@@ -235,7 +233,7 @@
 
 #carbonads span {
   display: block;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
 }
 
@@ -265,12 +263,11 @@
   font-size: 9px;
   font-weight: 600;
   letter-spacing: .5px;
-  line-height: 0; 
   padding: 10px var(--font-size);
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 759px) {
+@media only screen and (min-width: 320px) and (max-width: 840px) {
   #carbonads {
     float: none;
     max-width: 18rem;
@@ -291,7 +288,7 @@
   .carbon-text {
     float: left;
     margin-bottom: 0;
-    max-width: calc(100% - 130px - 3em); 
+    max-width: calc(100% - 130px - 3em);
     padding: 8px 20px;
     text-align: left;
   }
