@@ -59,7 +59,7 @@
 .blockevent-content {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 50vh;
 
   .blockevent-title {
     font-size: .6rem;
@@ -160,8 +160,10 @@
 }
 
 .blockevent-sidebar {
-  position: sticky;
-  top: 0;
+  @media screen and (min-width: $size-md) {
+    position: sticky;
+    top: 0;
+  }
 
   .blockevent-title {
     color: $gray-color-dark;
@@ -194,6 +196,20 @@
   }
 }
 
+.blockevent-faq {
+  .faq-title {
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+  }
+  .label {
+    padding: .5rem;
+    user-select: all;
+    min-width: 50%;
+  }
+}
+
 .section-footer {
   padding: $unit-4 0;
 }
@@ -212,7 +228,6 @@
   margin: 1rem auto;
   max-width: var(--width);
   overflow: hidden;
-  padding: .5rem;
   text-align: center;
   
   a {

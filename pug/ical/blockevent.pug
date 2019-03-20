@@ -6,6 +6,7 @@
 | CALSCALE:GREGORIAN
 | METHOD:PUBLISH
 | X-WR-CALNAME:Blockchain Conferences and Events
+| X-WR-TIMEZONE:UTC
 
 each event in events
   | BEGIN:VEVENT
@@ -13,17 +14,14 @@ each event in events
   | DTSTAMP;VALUE=DATE-TIME:#{event.date.dtstamp}
   | DTSTART;VALUE=DATE:#{event.date.start}
   | DTEND;VALUE=DATE:#{event.date.end}
-  | X-FUNAMBOL-ALLDAY:1
-  | X-MICROSOFT-CDO-ALLDAYEVENT:TRUE
   | CLASS:PUBLIC
+  | DESCRIPTION:#{event.description}
+  | LOCATION:#{event.location}
   | SUMMARY:#{event.name}
   | URL:#{event.url}
-  | LOCATION:#{event.location}
-  | DESCRIPTION:#{event.description}
-  | X-MICROSOFT-CDO-BUSYSTATUS:FREE
+  | TRANSP:TRANSPARENT
   | STATUS:CONFIRMED
-  | PRIORITY:1
-  | SEQUENCE:1
+  | SEQUENCE:0
   | END:VEVENT
 
 | END:VCALENDAR

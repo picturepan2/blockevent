@@ -56,7 +56,7 @@
   display: -ms-flexbox;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .blockevent-content .blockevent-title {
@@ -160,10 +160,12 @@
   }
 }
 
-.blockevent-sidebar {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
+@media screen and (min-width: 840px) {
+  .blockevent-sidebar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
 }
 
 .blockevent-sidebar .blockevent-title {
@@ -201,6 +203,20 @@
   color: #b9b9b9;
 }
 
+.blockevent-faq .faq-title h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.blockevent-faq .label {
+  min-width: 50%; 
+  padding: .5rem;
+  -webkit-user-select: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+
 .section-footer {
   padding: .8rem 0;
 }
@@ -218,7 +234,6 @@
   margin: 1rem auto;
   max-width: var(--width);
   overflow: hidden;
-  padding: .5rem;
   text-align: center;
 }
 
