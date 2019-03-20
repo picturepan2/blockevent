@@ -1,8 +1,10 @@
 BEGIN:VCALENDAR
-PRODID:-//blockevent.co//ical//blockchain
+PRODID:-//BlockEvent.co//BlockEvent Calendar//EN
 VERSION:2.0
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+URL:https://blockevent.co/ical/blockevent.ics
+NAME:Blockchain Conferences and Events
 X-WR-CALNAME:Blockchain Conferences and Events
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
