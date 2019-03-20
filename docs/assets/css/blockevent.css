@@ -160,10 +160,10 @@
   }
 }
 
-@media screen and (min-width: 840px) {
-  .blockevent-sidebar {
-    height: 100%;
-  }
+.blockevent-sidebar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .blockevent-sidebar .blockevent-title {

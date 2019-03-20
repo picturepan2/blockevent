@@ -72,7 +72,7 @@
   .blockevent-item {
     display: none;
   }
-  
+
   .blockevent-item.upcoming {
     align-items: center;
     background: $bg-color;
@@ -160,9 +160,8 @@
 }
 
 .blockevent-sidebar {
-  @media screen and (min-width: $size-md) {
-    height: 100%;
-  }
+  position: sticky;
+  top: 0;
 
   .blockevent-title {
     color: $gray-color-dark;
