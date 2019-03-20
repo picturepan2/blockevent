@@ -314,12 +314,12 @@
   description: ~
   highlight: false
 -
-  name: Bitcoin Live Fireside Chat
-  url: https://bitcoin.live/firesidechat/
+  name: Ethereal Summit 2019
+  url: https://etherealsummit.com/
   date: 
-    start: 2019/05/14
-    end: 2019/05/14
-  location: New York, NY
+    start: 2019/05/10
+    end: 2019/05/11
+  location: New York City, NY
   description: ~
   highlight: false
 -
@@ -337,6 +337,15 @@
   date: 
     start: 2019/05/13
     end: 2019/05/15
+  location: New York, NY
+  description: ~
+  highlight: false
+-
+  name: Bitcoin Live Fireside Chat
+  url: https://bitcoin.live/firesidechat/
+  date: 
+    start: 2019/05/14
+    end: 2019/05/14
   location: New York, NY
   description: ~
   highlight: false
