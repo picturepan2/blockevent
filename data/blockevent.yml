@@ -138,10 +138,10 @@
   url: https://deconomy.com/seoul2019/
   date: 
     start: 2019/04/04
-    end: 2019/04/05/
+    end: 2019/04/05
   location: Seoul, South Korea
   description: ~
-  highlight: false
+  highlight: true
 -
   name: Blockchain Las Vegas
   url: https://blv.keynote.ae/
