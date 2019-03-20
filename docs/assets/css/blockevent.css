@@ -2792,6 +2792,7 @@ a.text-error:visited {
   word-wrap: break-word;
 }
 
+/*! BlockEvent | MIT License | blockevent.co */
 .section-header .navbar-brand a {
   color: #202020;
   font-size: 1.2rem;
@@ -2999,8 +3000,16 @@ a.text-error:visited {
 
 .section-faq {
   background: #f9f9f9;
-  margin: 2rem 0;
-  padding: 2rem 0;
+  margin: 4rem 0 1rem 0;
+  padding: 4rem 0;
+}
+
+.section-faq .blockevent-title {
+  text-align: center;
+}
+
+.blockevent-faq .faq-title {
+  margin-bottom: 1rem;
 }
 
 .blockevent-faq .faq-title h3 {
@@ -3009,8 +3018,13 @@ a.text-error:visited {
   font-weight: 700;
 }
 
+.blockevent-faq .faq-content {
+  margin-bottom: 4rem;
+}
+
 .blockevent-faq .label {
-  min-width: 50%; 
+  font-size: .8rem;
+  min-width: 50%;
   padding: .5rem;
   -webkit-user-select: all;
   -moz-user-select: all;

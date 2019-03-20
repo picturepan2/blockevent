@@ -30,6 +30,7 @@
 @import "animations";
 @import "utilities";
 
+/*! BlockEvent | MIT License | blockevent.co */
 .section-header {
   .navbar-brand {
     a {
@@ -225,22 +226,34 @@
 }
 .section-faq {
   background: $bg-color;
-  margin: 2rem 0;
-  padding: 2rem 0;
+  margin: 4rem 0 1rem 0;
+  padding: 4rem 0;
+
+  .blockevent-title {
+    text-align: center;
+  }
 }
 
 .blockevent-faq {
   .faq-title {
+    margin-bottom: 1rem;
+
     h3 {
       color: $primary-color;
       font-size: 1rem;
       font-weight: 700;
     }
   }
+
+  .faq-content {
+    margin-bottom: 4rem;
+  }
+
   .label {
+    font-size: .8rem;
+    min-width: 50%;
     padding: .5rem;
     user-select: all;
-    min-width: 50%;
   }
 }
 
