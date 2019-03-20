@@ -1,6 +1,34 @@
-// Core variables and mixins
+// Variables and mixins
 @import "variables";
 @import "mixins";
+
+/*! Spectre.css | MIT License | github.com/picturepan2/spectre */
+// Reset and dependencies
+@import "normalize";
+@import "base";
+
+// Elements
+@import "typography";
+@import "buttons";
+@import "forms";
+@import "labels";
+@import "media";
+
+// Layout
+@import "layout";
+@import "navbar";
+
+// Components
+@import "cards";
+@import "dropdowns";
+@import "empty";
+@import "menus";
+@import "modals";
+@import "tooltips";
+
+// Utility classes
+@import "animations";
+@import "utilities";
 
 .section-header {
   .navbar-brand {
@@ -195,10 +223,16 @@
     }
   }
 }
+.section-faq {
+  background: $bg-color;
+  margin: 2rem 0;
+  padding: 2rem 0;
+}
 
 .blockevent-faq {
   .faq-title {
     h3 {
+      color: $primary-color;
       font-size: 1rem;
       font-weight: 700;
     }
