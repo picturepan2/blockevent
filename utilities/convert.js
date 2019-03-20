@@ -16,11 +16,13 @@ async function run() {
     let dend = new Date(results[i].date.end);
     let datestart = date.format(dstart, 'YYYYMMDD');
     let dateend = date.format(dend, 'YYYYMMDD');
+    let icsend = date.format(date.addDays(dend, +1), 'YYYYMMDD');
     let dtstamp = date.format(dstart, 'YYYYMMDDTHHmmss');
     
     results[i].date.dtstamp = dtstamp;
     results[i].date.start = datestart;
     results[i].date.end = dateend;
+    results[i].date.icsend = icsend;
 
     // Add human readable date
     if (!date.isSameDay(dstart, dend)) {

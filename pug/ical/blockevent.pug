@@ -11,7 +11,7 @@ each event in events
   | UID:#{event.hash}
   | DTSTAMP;VALUE=DATE-TIME:#{event.date.dtstamp}
   | DTSTART;VALUE=DATE:#{event.date.start}
-  | DTEND;VALUE=DATE:#{event.date.end}
+  | DTEND;VALUE=DATE:#{event.date.icsend}
   | CLASS:PUBLIC
   | DESCRIPTION:#{event.description}
   | LOCATION:#{event.location}
