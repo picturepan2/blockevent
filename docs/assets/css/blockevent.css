@@ -48,7 +48,7 @@
 }
 
 .section-main .sidebar-container {
-  min-width: 10rem;
+  min-width: 12.8rem;
 }
 
 .blockevent-content {
@@ -56,6 +56,7 @@
   display: -ms-flexbox;
   -ms-flex-direction: column;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .blockevent-content .blockevent-title {
@@ -144,7 +145,7 @@
 
 @media screen and (max-width: 600px) {
   .blockevent-content .blockevent-item {
-    display: block;
+    display: block !important;
   }
   .blockevent-content .blockevent-item .event-date,
   .blockevent-content .blockevent-item .event-name,
@@ -195,7 +196,7 @@
   -ms-flex-pack: center;
   height: 4rem;
   justify-content: center;
-  width: 100%;
+  width: 12rem;
 }
 
 .blockevent-sidebar .sponsor-item a {

@@ -46,22 +46,11 @@ html(lang='en')
         console.log(today);
 
         $('.blockevent-item').each(function(index){
-          if ($(this).attr('data-date') >= today) {
+          if ($(this).attr('data-end') >= today) {
             $(this).css('display', 'flex')
           }
         })
       })
-
-      
-      
-      //- for (var i = 0; i < 9; i++) {
-      //-   console.log(elements[i]);
-      //-   var tempdate = elements[i].getAttribute('data-date');
-      //-   if (tempdate < today) {
-      //-     elements[i].style.display = 'none';
-      //-   }
-      //-   console.log(tempdate);
-      //- }
 
   body
     block content

@@ -28,22 +28,11 @@
         console.log(today);
       
         $('.blockevent-item').each(function(index){
-          if ($(this).attr('data-date') >= today) {
+          if ($(this).attr('data-end') >= today) {
             $(this).css('display', 'flex')
           }
         })
       })
-      
-      
-      
-      //- for (var i = 0; i < 9; i++) {
-      //-   console.log(elements[i]);
-      //-   var tempdate = elements[i].getAttribute('data-date');
-      //-   if (tempdate < today) {
-      //-     elements[i].style.display = 'none';
-      //-   }
-      //-   console.log(tempdate);
-      //- }
       
     </script>
   </head>
@@ -63,379 +52,379 @@
             <div class="blockevent-content">
               <div class="blockevent-title">Blockchain Conferences and Events</div>
               <div class="blockevent-list">
-                <div class="blockevent-item" data-date="20190315">
+                <div class="blockevent-item" data-start="20190315" data-end="20190315">
                   <div class="event-date">Mar 15</div>
                   <div class="event-name"><a href="https://www.blockpass.org/events/blockpass-seminar-security-tokens-hk/?utm_source=blockevent.co" target="_blank">Blockpass Security Token Seminar</a></div>
                   <div class="event-location">Hong Kong, China</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190315">
+                <div class="blockevent-item" data-start="20190315" data-end="20190315">
                   <div class="event-date">Mar 15</div>
                   <div class="event-name"><a href="https://crypto-currentconf.co/?utm_source=blockevent.co" target="_blank">Crypto Current Conference</a></div>
                   <div class="event-location">New Orleans, LA</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item highlight" data-date="20190315">
+                <div class="blockevent-item highlight" data-start="20190315" data-end="20190318">
                   <div class="event-date">Mar 15 - Mar 18</div>
                   <div class="event-name"><a href="http://www.icbct.org/?utm_source=blockevent.co" target="_blank">International Conference on Blockchain Technology 2019</a></div>
                   <div class="event-location">Honolulu, HI</div>
                   <div class="event-action"><a class="btn btn-sm btn-primary" href="http://www.icbct.org/?utm_source=blockevent.co" target="_blank">Register</a></div>
                 </div>
-                <div class="blockevent-item" data-date="20190319">
+                <div class="blockevent-item" data-start="20190319" data-end="20190321">
                   <div class="event-date">Mar 19 - Mar 21</div>
                   <div class="event-name"><a href="https://asia.money2020.com/?utm_source=blockevent.co" target="_blank">Money20/20 Asia</a></div>
                   <div class="event-location">Singapore</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190320">
+                <div class="blockevent-item" data-start="20190320" data-end="20190321">
                   <div class="event-date">Mar 20 - Mar 21</div>
                   <div class="event-name"><a href="https://nairobi.worldblockchainsummit.com/?utm_source=blockevent.co" target="_blank">World Blockchain Summit Nairobi</a></div>
                   <div class="event-location">Nairobi, Kenya</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190322">
+                <div class="blockevent-item" data-start="20190322" data-end="20190322">
                   <div class="event-date">Mar 22</div>
                   <div class="event-name"><a href="https://prague.bc.events/?utm_source=blockevent.co" target="_blank">Blockchain &amp; Bitcoin Conference Prague</a></div>
                   <div class="event-location">Prague, Czech Republic</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190323">
+                <div class="blockevent-item" data-start="20190323" data-end="20190329">
                   <div class="event-date">Mar 23 - Mar 29</div>
                   <div class="event-name"><a href="https://dubai.cryptoexpo.asia/?utm_source=blockevent.co" target="_blank">Crypto Expo Asia in Dubai</a></div>
                   <div class="event-location">Dubai, UAE</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190325">
+                <div class="blockevent-item highlight" data-start="20190325" data-end="20190326">
                   <div class="event-date">Mar 25 - Mar 26</div>
                   <div class="event-name"><a href="https://blockchainsummitfrankfurt.com/?utm_source=blockevent.co" target="_blank">Blockchain Summit Frankfurt 2019</a></div>
                   <div class="event-location">Frankfurt, Germany</div>
-                  <div class="event-action"></div>
+                  <div class="event-action"><a class="btn btn-sm btn-primary" href="https://blockchainsummitfrankfurt.com/?utm_source=blockevent.co" target="_blank">Register</a></div>
                 </div>
-                <div class="blockevent-item" data-date="20190326">
+                <div class="blockevent-item" data-start="20190326" data-end="20190327">
                   <div class="event-date">Mar 26 - Mar 27</div>
                   <div class="event-name"><a href="https://blockchainsummit.ch/events/zug-2019/?utm_source=blockevent.co" target="_blank">CV Summit 2019</a></div>
                   <div class="event-location">Casino Zug, Switzerland</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190328">
+                <div class="blockevent-item" data-start="20190328" data-end="20190328">
                   <div class="event-date">Mar 28</div>
                   <div class="event-name"><a href="https://www.tfblock.io/?utm_source=blockevent.co" target="_blank">TF Blockchain 3</a></div>
                   <div class="event-location">Seattle, WA</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190401">
+                <div class="blockevent-item" data-start="20190401" data-end="20190403">
                   <div class="event-date">Apr 1 - Apr 3</div>
                   <div class="event-name"><a href="http://blockhealthsummit.org/?utm_source=blockevent.co" target="_blank">BlockHealth Summit</a></div>
                   <div class="event-location">Dubai, UAE</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190402">
+                <div class="blockevent-item" data-start="20190402" data-end="20190403">
                   <div class="event-date">Apr 2 - Apr 3</div>
                   <div class="event-name"><a href="https://www.futureblockchainsummit.com/?utm_source=blockevent.co" target="_blank">Future Blockchain Summit</a></div>
                   <div class="event-location">Dubai, UAE</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190402">
+                <div class="blockevent-item" data-start="20190402" data-end="20190403">
                   <div class="event-date">Apr 2 - Apr 3</div>
                   <div class="event-name"><a href="https://www.blockchainsummitaustria.com/?utm_source=blockevent.co" target="_blank">Blockchain Summit Austria</a></div>
                   <div class="event-location">Vienna, Austria</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190403">
+                <div class="blockevent-item" data-start="20190403" data-end="20190404">
                   <div class="event-date">Apr 3 - Apr 4</div>
                   <div class="event-name"><a href="https://www.cryptoblockcon.com/los-angeles-april-2019/?utm_source=blockevent.co" target="_blank">CryptoBlockCon Los Angeles</a></div>
                   <div class="event-location">Los Angeles, CA</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190403">
+                <div class="blockevent-item" data-start="20190403" data-end="20190404">
                   <div class="event-date">Apr 3 - Apr 4</div>
                   <div class="event-name"><a href="https://fintechandfunding.com/?utm_source=blockevent.co" target="_blank">2019 Fintech &amp; Financing Conference and Expo</a></div>
                   <div class="event-location">Toronto, Canada</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190404">
+                <div class="blockevent-item" data-start="20190404" data-end="20190405">
                   <div class="event-date">Apr 4 - Apr 5</div>
                   <div class="event-name"><a href="https://deconomy.com/seoul2019/?utm_source=blockevent.co" target="_blank">Deconomy Seoul 2019</a></div>
                   <div class="event-location">Seoul, South Korea</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190404">
+                <div class="blockevent-item" data-start="20190404" data-end="20190406">
                   <div class="event-date">Apr 4 - Apr 6</div>
                   <div class="event-name"><a href="https://blv.keynote.ae/?utm_source=blockevent.co" target="_blank">Blockchain Las Vegas</a></div>
                   <div class="event-location">Las Vegas, NV</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190404">
+                <div class="blockevent-item" data-start="20190404" data-end="20190406">
                   <div class="event-date">Apr 4 - Apr 6</div>
                   <div class="event-name"><a href="https://coinfestuk.org/CF2019/?utm_source=blockevent.co" target="_blank">CoinFestUK 2019</a></div>
                   <div class="event-location">Manchester, UK</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190405">
+                <div class="blockevent-item" data-start="20190405" data-end="20190409">
                   <div class="event-date">Apr 5 - Apr 9</div>
                   <div class="event-name"><a href="https://dappcon.net/?utm_source=blockevent.co" target="_blank">DAPPCON 2019</a></div>
                   <div class="event-location">San Francisco, CA</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190406">
+                <div class="blockevent-item" data-start="20190406" data-end="20190407">
                   <div class="event-date">Apr 6 - Apr 7</div>
                   <div class="event-name"><a href="https://summit.teamz.co.jp/?utm_source=blockevent.co" target="_blank">TEAMZ Blockchain Summit</a></div>
                   <div class="event-location">Tokyo, Japan</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190408">
+                <div class="blockevent-item" data-start="20190408" data-end="20190408">
                   <div class="event-date">Apr 8</div>
                   <div class="event-name"><a href="https://securitytokensummit.com/?utm_source=blockevent.co" target="_blank">Security Token Summit</a></div>
                   <div class="event-location">Los Angeles, CA</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190409">
+                <div class="blockevent-item" data-start="20190409" data-end="20190410">
                   <div class="event-date">Apr 9 - Apr 10</div>
                   <div class="event-name"><a href="https://cis.la/?utm_source=blockevent.co" target="_blank">Crypto Invest Summit</a></div>
                   <div class="event-location">Los Angeles, CA</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item highlight" data-date="20190411">
+                <div class="blockevent-item highlight" data-start="20190411" data-end="20190412">
                   <div class="event-date">Apr 11 - Apr 12</div>
                   <div class="event-name"><a href="http://chainplus-finance.com/?utm_source=blockevent.co" target="_blank">Chain Plus Asia Pacific Blockchain New Finance Summit</a></div>
                   <div class="event-location">Singapore</div>
                   <div class="event-action"><a class="btn btn-sm btn-primary" href="http://chainplus-finance.com/?utm_source=blockevent.co" target="_blank">Register</a></div>
                 </div>
-                <div class="blockevent-item" data-date="20190411">
+                <div class="blockevent-item" data-start="20190411" data-end="20190411">
                   <div class="event-date">Apr 11</div>
                   <div class="event-name"><a href="http://stockholmblockchainforum.com/?utm_source=blockevent.co" target="_blank">Stockholm Blockchain Forum</a></div>
                   <div class="event-location">Stockholm, Sweden</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190412">
+                <div class="blockevent-item" data-start="20190412" data-end="20190412">
                   <div class="event-date">Apr 12</div>
                   <div class="event-name"><a href="https://kryptonevents.com/sofia-2019/?utm_source=blockevent.co" target="_blank">NEXT BLOCK Conference</a></div>
                   <div class="event-location">Sofia, Bulgaria</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190413">
+                <div class="blockevent-item" data-start="20190413" data-end="20190419">
                   <div class="event-date">Apr 13 - Apr 19</div>
                   <div class="event-name"><a href="https://www.blockchainweekparis.com/?utm_source=blockevent.co" target="_blank">Paris Blockchain Week</a></div>
                   <div class="event-location">Paris, France</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190416">
+                <div class="blockevent-item" data-start="20190416" data-end="20190417">
                   <div class="event-date">Apr 16 - Apr 17</div>
                   <div class="event-name"><a href="https://b10paris.com/?utm_source=blockevent.co" target="_blank">Paris Blockchain Week Summit</a></div>
                   <div class="event-location">Paris, France</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190423">
+                <div class="blockevent-item" data-start="20190423" data-end="20190424">
                   <div class="event-date">Apr 23 - Apr 24</div>
                   <div class="event-name"><a href="https://blockchain-life.com/asia/en/?utm_source=blockevent.co" target="_blank">Blockchain Life 2019</a></div>
                   <div class="event-location">Singapore</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190424">
+                <div class="blockevent-item" data-start="20190424" data-end="20190425">
                   <div class="event-date">Apr 24 - Apr 25</div>
                   <div class="event-name"><a href="https://blockchainrevolutionglobal.com/?utm_source=blockevent.co" target="_blank">Blockchain Revolution Global</a></div>
                   <div class="event-location">Toronto, Canada</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190424">
+                <div class="blockevent-item" data-start="20190424" data-end="20190424">
                   <div class="event-date">Apr 24</div>
                   <div class="event-name"><a href="https://www.blockpass.org/events/blockpass-seminar-security-tokens-london/?utm_source=blockevent.co" target="_blank">Blockpass Security Token Seminar</a></div>
                   <div class="event-location">London, UK</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190425">
+                <div class="blockevent-item" data-start="20190425" data-end="20190426">
                   <div class="event-date">Apr 25 - Apr 26</div>
                   <div class="event-name"><a href="http://europeanpaymentsummit.com/?utm_source=blockevent.co" target="_blank">European Payment Summit 2019</a></div>
                   <div class="event-location">The Hague, Netherlands</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190425">
+                <div class="blockevent-item" data-start="20190425" data-end="20190426">
                   <div class="event-date">Apr 25 - Apr 26</div>
                   <div class="event-name"><a href="https://cryptogames.events/?utm_source=blockevent.co" target="_blank">Crypto Games Conference</a></div>
                   <div class="event-location">Minsk, Belarus</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190429">
+                <div class="blockevent-item" data-start="20190429" data-end="20190430">
                   <div class="event-date">Apr 29 - Apr 30</div>
                   <div class="event-name"><a href="http://globalbcsummit.eu/?utm_source=blockevent.co" target="_blank">Global Blockchain Summit</a></div>
                   <div class="event-location">Ljubljana, Slovenia</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190507">
+                <div class="blockevent-item" data-start="20190507" data-end="20190508">
                   <div class="event-date">May 7 - May 8</div>
                   <div class="event-name"><a href="http://blockchainapac.fintecnet.com/?utm_source=blockevent.co" target="_blank">Blockchain for Finance Conference</a></div>
                   <div class="event-location">Singapore</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190508">
+                <div class="blockevent-item" data-start="20190508" data-end="20190509">
                   <div class="event-date">May 8 - May 9</div>
                   <div class="event-name"><a href="https://www.terrapinn.com/conference/trading-show-chicago/?utm_source=blockevent.co" target="_blank">Trading Show Chicago 2019</a></div>
                   <div class="event-location">Chicago, IL</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190514">
+                <div class="blockevent-item" data-start="20190514" data-end="20190514">
                   <div class="event-date">May 14</div>
                   <div class="event-name"><a href="https://bitcoin.live/firesidechat/?utm_source=blockevent.co" target="_blank">Bitcoin Live Fireside Chat</a></div>
                   <div class="event-location">New York, NY</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item highlight" data-date="20190513">
+                <div class="blockevent-item highlight" data-start="20190513" data-end="20190515">
                   <div class="event-date">May 13 - May 15</div>
                   <div class="event-name"><a href="https://www.coindesk.com/events/consensus-2019/?utm_source=blockevent.co" target="_blank">Consensus</a></div>
                   <div class="event-location">New York, NY</div>
                   <div class="event-action"><a class="btn btn-sm btn-primary" href="https://www.coindesk.com/events/consensus-2019/?utm_source=blockevent.co" target="_blank">Register</a></div>
                 </div>
-                <div class="blockevent-item" data-date="20190513">
+                <div class="blockevent-item" data-start="20190513" data-end="20190515">
                   <div class="event-date">May 13 - May 15</div>
                   <div class="event-name"><a href="https://www.coindesk.com/events/consensus-2019/construct?utm_source=blockevent.co" target="_blank">Construct</a></div>
                   <div class="event-location">New York, NY</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190515">
+                <div class="blockevent-item" data-start="20190515" data-end="20190515">
                   <div class="event-date">May 15</div>
                   <div class="event-name"><a href="https://www.digitalassetsummit.io/?utm_source=blockevent.co" target="_blank">Digital Asset Summit</a></div>
                   <div class="event-location">New York, NY</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190516">
+                <div class="blockevent-item" data-start="20190516" data-end="20190516">
                   <div class="event-date">May 16</div>
                   <div class="event-name"><a href="http://tokensummit.com/?utm_source=blockevent.co" target="_blank">Token Summit IV</a></div>
                   <div class="event-location">New York, NY</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190520">
+                <div class="blockevent-item" data-start="20190520" data-end="20190520">
                   <div class="event-date">May 20</div>
                   <div class="event-name"><a href="http://eblockchainconvention.com/nordic/?utm_source=blockevent.co" target="_blank">European Blockchain Convention 2019</a></div>
                   <div class="event-location">Copenhagen, Denmark</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190520">
+                <div class="blockevent-item" data-start="20190520" data-end="20190520">
                   <div class="event-date">May 20</div>
                   <div class="event-name"><a href="https://unblockedevents.com/events/energy-unblocked-2019/?utm_source=blockevent.co" target="_blank">Energy Unblocked 2019</a></div>
                   <div class="event-location">London, UK</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190522">
+                <div class="blockevent-item" data-start="20190522" data-end="20190525">
                   <div class="event-date">May 22 - May 25</div>
                   <div class="event-name"><a href="https://cc-forum.com/?utm_source=blockevent.co" target="_blank">Crypto Challenge Forum 2019</a></div>
                   <div class="event-location">Malta</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190523">
+                <div class="blockevent-item" data-start="20190523" data-end="20190524">
                   <div class="event-date">May 23 - May 24</div>
                   <div class="event-name"><a href="https://maltablockchainsummit.com/?utm_source=blockevent.co" target="_blank">Malta AI &amp; Blockchain Summit</a></div>
                   <div class="event-location">Malta</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190531">
+                <div class="blockevent-item" data-start="20190531" data-end="20190531">
                   <div class="event-date">May 31</div>
                   <div class="event-name"><a href="https://www.theblock.events/?utm_source=blockevent.co" target="_blank">Monaco Blockchain Masterclass</a></div>
                   <div class="event-location">Monte Carlo, Monaco</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190604">
+                <div class="blockevent-item" data-start="20190604" data-end="20190605">
                   <div class="event-date">Jun 4 - Jun 5</div>
                   <div class="event-name"><a href="https://finserv-blockchain.com/?utm_source=blockevent.co" target="_blank">Blockchain for Financial Services Global Summit</a></div>
                   <div class="event-location">Toronto, Canada</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190609">
+                <div class="blockevent-item" data-start="20190609" data-end="20190613">
                   <div class="event-date">Jun 9 - Jun 13</div>
                   <div class="event-name"><a href="https://coinsbank.cruises/?utm_source=blockevent.co" target="_blank">CoinsBank Blockchain Cruise 2019</a></div>
                   <div class="event-location">Barcelona, Spain</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190610">
+                <div class="blockevent-item" data-start="20190610" data-end="20190612">
                   <div class="event-date">Jun 10 - Jun 12</div>
                   <div class="event-name"><a href="https://websummit.com/moneyconf/?utm_source=blockevent.co" target="_blank">CryptoConf</a></div>
                   <div class="event-location">Dublin, Ireland</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190610">
+                <div class="blockevent-item" data-start="20190610" data-end="20190612">
                   <div class="event-date">Jun 10 - Jun 12</div>
                   <div class="event-name"><a href="https://blockchainsummitlondon.com/?utm_source=blockevent.co" target="_blank">Blockchain Summit London</a></div>
                   <div class="event-location">London, UK</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190614">
+                <div class="blockevent-item" data-start="20190614" data-end="20190615">
                   <div class="event-date">Jun 14 - Jun 15</div>
                   <div class="event-name"><a href="https://www.unchain-convention.com/?utm_source=blockevent.co" target="_blank">UNCHAIN Convention 2019</a></div>
                   <div class="event-location">Berlin, Germany</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190621">
+                <div class="blockevent-item" data-start="20190621" data-end="20190622">
                   <div class="event-date">Jun 21 - Jun 22</div>
                   <div class="event-name"><a href="https://washingtonelite.com/?utm_source=blockevent.co" target="_blank">A.I. Blockchain Summit</a></div>
                   <div class="event-location">Washington, DC</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190624">
+                <div class="blockevent-item" data-start="20190624" data-end="20190625">
                   <div class="event-date">Jun 24 - Jun 25</div>
                   <div class="event-name"><a href="https://www.cryptovalleyconference.com/?utm_source=blockevent.co" target="_blank">Crypto Valley Conference</a></div>
                   <div class="event-location">Zug, Switzerland</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190625">
+                <div class="blockevent-item" data-start="20190625" data-end="20190626">
                   <div class="event-date">Jun 25 - Jun 26</div>
                   <div class="event-name"><a href="https://www.bitcoin2019conference.com/?utm_source=blockevent.co" target="_blank">Bitcoin 2019</a></div>
                   <div class="event-location">San Francisco, CA</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190625">
+                <div class="blockevent-item" data-start="20190625" data-end="20190626">
                   <div class="event-date">Jun 25 - Jun 26</div>
                   <div class="event-name"><a href="https://blockchainsummitlondon.com/?utm_source=blockevent.co" target="_blank">Blockchain Summit London</a></div>
                   <div class="event-location">London, UK</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190710">
+                <div class="blockevent-item" data-start="20190710" data-end="20190711">
                   <div class="event-date">Jul 10 - Jul 11</div>
                   <div class="event-name"><a href="https://btconf.io/2019/?utm_source=blockevent.co" target="_blank">Barcelona Trading Conference</a></div>
                   <div class="event-location">Barcelona, Spain</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190813">
+                <div class="blockevent-item" data-start="20190813" data-end="20190814">
                   <div class="event-date">Aug 13 - Aug 14</div>
                   <div class="event-name"><a href="https://www.cryptoblockcon.com/new-york-august-2019/?utm_source=blockevent.co" target="_blank">CryptoBlockCon New York</a></div>
                   <div class="event-location">New York, NY</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190825">
+                <div class="blockevent-item" data-start="20190825" data-end="20190826">
                   <div class="event-date">Aug 25 - Aug 26</div>
                   <div class="event-name"><a href="https://www.blockchainsummitsingapore.com/?utm_source=blockevent.co" target="_blank">Blockchain Summit Singapore</a></div>
                   <div class="event-location">Suntec, Singapore</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190923">
+                <div class="blockevent-item" data-start="20190923" data-end="20190924">
                   <div class="event-date">Sep 23 - Sep 24</div>
                   <div class="event-name"><a href="https://www.cryptoblockcon.com/london-september-2019/?utm_source=blockevent.co" target="_blank">CryptoBlockCon London</a></div>
                   <div class="event-location">London, UK</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20190925">
+                <div class="blockevent-item" data-start="20190925" data-end="20190925">
                   <div class="event-date">Sep 25</div>
                   <div class="event-name"><a href="https://blockchainlive.com/?utm_source=blockevent.co" target="_blank">Blockchain Live 2019</a></div>
                   <div class="event-location">London, UK</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20191027">
+                <div class="blockevent-item" data-start="20191027" data-end="20191030">
                   <div class="event-date">Oct 27 - Oct 30</div>
                   <div class="event-name"><a href="https://us.money2020.com/2019/?utm_source=blockevent.co" target="_blank">Money20/20 USA</a></div>
                   <div class="event-location">Las Vegas, NV</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20191029">
+                <div class="blockevent-item" data-start="20191029" data-end="20191031">
                   <div class="event-date">Oct 29 - Oct 31</div>
                   <div class="event-name"><a href="https://worldcryptocon.com/?utm_source=blockevent.co" target="_blank">World Crypto Conference</a></div>
                   <div class="event-location">Las Vegas, NV</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20191107">
+                <div class="blockevent-item" data-start="20191107" data-end="20191108">
                   <div class="event-date">Nov 7 - Nov 8</div>
                   <div class="event-name"><a href="https://maltablockchainsummit.com/?utm_source=blockevent.co" target="_blank">Malta AI &amp; Blockchain Summit</a></div>
                   <div class="event-location">Malta</div>
                   <div class="event-action"></div>
                 </div>
-                <div class="blockevent-item" data-date="20191210">
+                <div class="blockevent-item" data-start="20191210" data-end="20191211">
                   <div class="event-date">Dec 10 - Dec 11</div>
                   <div class="event-name"><a href="https://www.cryptoblockcon.com/las-vegas-december-2019/?utm_source=blockevent.co" target="_blank">CryptoBlockCon Las Vegas</a></div>
                   <div class="event-location">Las Vegas, NV</div>
@@ -450,10 +439,7 @@
                 <div class="blockevent-title">Sponsors</div>
                 <div class="sponsor-item"><a href="mailto:hello@blockevent.co?subject=Advertising on BlockEvent.co">Advertising Here</a></div>
               </div>
-              <div class="blockevent-ad hide-md text-center">
-                <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle mx-auto" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-2225124559530218" data-ad-slot="2173025905"></ins>
-                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-              </div>
+              <div class="blockevent-ad text-center"></div>
             </div>
           </div>
         </div>
