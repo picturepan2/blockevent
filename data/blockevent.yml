@@ -483,7 +483,7 @@
     end: 2019/06/26
   location: San Francisco, CA
   description: ~
-  highlight: false
+  highlight: true
 -
   name: Blockchain Summit London
   url: https://blockchainsummitlondon.com/
