@@ -10,7 +10,7 @@ async function run() {
 
   for (var i = 0 in results) {
     // Add hash
-    results[i].hash = md5(results[i].name);
+    results[i].hash = md5(results[i].name + results[i].date.start + results[i].date.end + results[i].date.url + results[i].date.location + results[i].description);
     // Change date format
     let dstart = new Date(results[i].date.start);
     let dend = new Date(results[i].date.end);
