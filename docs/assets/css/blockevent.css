@@ -3009,7 +3009,7 @@ a.text-error:visited {
 }
 
 .blockevent-faq .faq-title {
-  margin-bottom: 1rem;
+  padding: 1rem 0;
 }
 
 .blockevent-faq .faq-title h3 {
@@ -3019,7 +3019,7 @@ a.text-error:visited {
 }
 
 .blockevent-faq .faq-content {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .blockevent-faq .label {

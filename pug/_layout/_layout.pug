@@ -5,8 +5,8 @@ block global
 block variables
   - var slug = 'index'
   - var parent = 'index'
-  - var title = 'BlockEvent - Blockchain Conferences and Events'
-  - var description = 'Blockchain Conferences and Events.'
+  - var title = 'BlockEvent - Blockchain, Bitcoin, Cryptocurrency Conferences and Events'
+  - var description = 'Upcoming Blockchain, Bitcoin, Cryptocurrency, Fintech, Payment conferences and events.'
 
 if parent = 'index'
   if slug == 'index'
@@ -29,7 +29,6 @@ html(lang='en')
     meta(property='og:url' content= url)
     meta(property='og:title' content= title)
     meta(property='og:description' content= description)
-    meta(name='twitter:card' content='summary')
     link(rel='stylesheet' href='assets/css/blockevent.min.css')
     script(src='assets/js/zepto.min.js')
     link(rel='canonical' href= url)

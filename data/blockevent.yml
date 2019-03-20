@@ -458,6 +458,15 @@
   description: ~
   highlight: false
 -
+  name: Blockchain Expo Europe 2019
+  url: https://blockchain-expo.com/europe/
+  date: 
+    start: 2019/06/19
+    end: 2019/06/20
+  location: Amsterdam, Netherlands
+  description: ~
+  highlight: true
+-
   name: A.I. Blockchain Summit
   url: https://washingtonelite.com/
   date: 
