@@ -203,52 +203,106 @@
 }
 
 // Ads
-#native-grid-js {
-  .native-grid {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    max-width: 300px;
-    border-radius: 3px;
-    box-shadow: inset 0 0 2px 1px hsla(0, 0%, 0%, .08);
-    color: #111;
+#carbonads {
+  --width: 180px;
+  --font-size: 14px;
+}
+
+#carbonads {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+  max-width: var(--width);
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 0 0 1px hsla(0, 0%, 0%, .1);
+  background-color: hsl(0, 0%, 98%);
+  font-size: var(--font-size);
+  line-height: 1.5;
+
+  a {
+    color: inherit;
     text-decoration: none;
-    line-height: 1.5;
-  }
 
-  .native-cta {
-    padding: 6px 0;
-    border-bottom: solid 1px #eee;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5px;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 1;
-  }
-
-  .native-img {
-    display: flex;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-
-    img {
-      display: block;
-      height: 50px;
+    &:hover {
+      color: inherit;
     }
   }
 
-  .native-desc {
-    padding: 8px 10px;
-    font-size: 14px;
+  span {
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+}
+
+.carbon-img {
+  display: block;
+  margin-bottom: 8px;
+  max-width: var(--width);
+  line-height: 1;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: var(--width) !important;
+    width: var(--width);
+    height: auto;
+  }
+}
+
+.carbon-text {
+  display: block;
+  padding: 0 1em 8px;
+}
+
+.carbon-poweredby {
+  display: block;
+  padding: 10px var(--font-size);
+  background: $bg-color;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 0;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+  #carbonads {
+    float: none;
+    margin: 0 auto;
+    max-width: 330px;
+
+    span {
+      position: relative;
+    }
+
+    & > span {
+      max-width: none;
+    }
   }
 
-  .native-sponsor {
-    padding: 8px 10px;
-    background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 90%, .3);
-    text-transform: uppercase;
-    letter-spacing: .2px;
-    font-size: 9px;
+  .carbon-img {
+    float: left;
+    margin: 0;
+
+    img {
+      max-width: 130px !important;
+    }
+  }
+
+  .carbon-text {
+    float: left;
+    margin-bottom: 0;
+    padding: 8px 20px;
+    text-align: left;
+    max-width: calc(100% - 130px - 3em);
+  }
+  
+  .carbon-poweredby {
+    left: 130px;
+    bottom: 0;
+    display: block;
+    width: 100%;
   }
 }
