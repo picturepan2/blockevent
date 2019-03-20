@@ -104,12 +104,12 @@ STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:a8076cf387817d0d8968da383b86cc9b@blockevent.co
+UID:a547c33b234e7cc877c22c088cfdd979@blockevent.co
 DTSTAMP;VALUE=DATE-TIME:20190325T000000
 DTSTART;VALUE=DATE:20190325
 DTEND;VALUE=DATE:20190326
 CLASS:PUBLIC
-DESCRIPTION:Blockchain Summit Frankfurt is the leading blockchain for business event in Europe. Connecting over 1,500 industry leaders, business decision makers and tech innovators, Blockchain Summit Frankfurt is a 1 day conference and exhibition dedicated to the business of blockchain and distributed ledger technology (DLT). Based on unrivalled content, 80 visionary speakers and exceptional networking opportunities, Blockchain Summit Frankfurt is a must-attend event to understand the challenges and opportunities of our blockchain future.
+DESCRIPTION:Blockchain Summit Frankfurt is the leading blockchain for business event in Europe.
 LOCATION:Frankfurt, Germany
 SUMMARY:Blockchain Summit Frankfurt 2019
 URL:https://blockchainsummitfrankfurt.com/
