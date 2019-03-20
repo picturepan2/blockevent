@@ -7,7 +7,6 @@ var autoprefixer = require('gulp-autoprefixer');
 var pug = require('gulp-pug');
 var data = require('gulp-data');
 var plumber = require('gulp-plumber');
-var convertNewline = require("gulp-convert-newline");
 var fs = require('fs');
 
 var paths = {
@@ -59,9 +58,6 @@ gulp.task('ics', function() {
     }))
     .pipe(pug({
       pretty: true
-    }))
-    .pipe(convertNewline({
-      newline: "crlf"
     }))
     .pipe(rename({
       extname: ".ics"

@@ -2,7 +2,7 @@
 
 | BEGIN:VCALENDAR
 | VERSION:2.0
-| PRODID:-//BlockEvent.co//BlockEvent Calendar//EN
+| PRODID:-//BlockEvent.co//BlockEvent Calendar 1.0//EN
 | CALSCALE:GREGORIAN
 | METHOD:PUBLISH
 | X-WR-CALNAME:Blockchain Conferences and Events
@@ -10,7 +10,7 @@
 
 each event in events
   | BEGIN:VEVENT
-  | UID:#{event.hash}@blockevent.co
+  | UID:#{event.hash}
   | DTSTAMP;VALUE=DATE-TIME:#{event.date.dtstamp}
   | DTSTART;VALUE=DATE:#{event.date.start}
   | DTEND;VALUE=DATE:#{event.date.end}
