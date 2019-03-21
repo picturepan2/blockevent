@@ -29,9 +29,10 @@ html(lang='en')
     meta(property='og:url' content= url)
     meta(property='og:title' content= title)
     meta(property='og:description' content= description)
+    meta(property='og:image' content= domain + '/assets/img/blockevent-logo.png')
     link(rel='stylesheet' href='assets/css/blockevent.min.css')
-    script(src='assets/js/zepto.min.js')
     link(rel='canonical' href= url)
+    script(src='assets/js/zepto.min.js')
     script.
       Zepto(function($){
         var today = new Date(),
