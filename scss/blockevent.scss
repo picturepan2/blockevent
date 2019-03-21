@@ -251,9 +251,10 @@
 
   .label {
     font-size: .8rem;
-    min-width: 50%;
+    overflow: auto;
     padding: .5rem;
     user-select: all;
+    width: 100%;
   }
 }
 
