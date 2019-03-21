@@ -44,6 +44,15 @@
   description: ~
   highlight: false
 -
+  name: HashKey International Digital Asset Summit 2019
+  url: https://www.hashkey.com/#/digital-asset-summit-2019
+  date:
+    start: 2019/03/21
+    end: 2019/03/21
+  location: Hong Kong, China
+  description: ~
+  highlight: true
+-
   name: Blockchain & Bitcoin Conference Prague
   url: https://prague.bc.events/
   date:
