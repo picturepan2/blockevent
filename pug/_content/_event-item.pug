@@ -12,7 +12,7 @@ each event in events
         | #{event.location}
       .event-action
         a.btn.btn-sm.btn-primary(href=event.url+'?utm_source=blockevent.co' target='_blank')
-          | Register
+          | Website
   else
     .blockevent-item(data-start=event.date.start data-end=event.date.end id=event.hash)
       a.event-date(href='#'+event.hash)
