@@ -2798,12 +2798,18 @@ a.text-error:visited {
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 2.2rem;
-  margin-right: 2rem;
+  margin-right: .5rem;
   text-transform: uppercase;
 }
 
 .section-header .navbar-brand span {
   font-weight: 400;
+}
+
+.section-header .navbar-brand .twitter-link {
+  font-size: .6rem;
+  font-weight: 400;
+  margin-right: 2rem;
 }
 
 .section-header .navbar {

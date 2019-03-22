@@ -1,4 +1,14 @@
 -
+  name: ETHDenver 2019
+  url: https://www.ethdenver.com/
+  date:
+    start: 2019/02/15
+    end: 2019/02/17
+  location: Denver, CO
+  description: ~
+  type: Conference
+  highlight: false
+-
   name: Blockpass Security Token Seminar
   url: https://www.blockpass.org/events/blockpass-seminar-security-tokens-hk/
   date:
@@ -6,6 +16,7 @@
     end: 2019/03/15
   location: Hong Kong, China
   description: ~
+  type: Conference
   highlight: false
 -
   name: Crypto Current Conference
@@ -15,6 +26,7 @@
     end: 2019/03/15
   location: New Orleans, LA
   description: ~
+  type: Conference
   highlight: false
 -
   name: International Conference on Blockchain Technology 2019
@@ -24,6 +36,7 @@
     end: 2019/03/18
   location: Honolulu, HI
   description: ~
+  type: Conference
   highlight: true
 -
   name: Money20/20 Asia
@@ -33,6 +46,7 @@
     end: 2019/03/21
   location: Singapore
   description: ~
+  type: Conference
   highlight: false
 -
   name: World Blockchain Summit Nairobi
@@ -42,6 +56,7 @@
     end: 2019/03/21
   location: Nairobi, Kenya
   description: ~
+  type: Conference
   highlight: false
 -
   name: HashKey International Digital Asset Summit 2019
@@ -51,6 +66,7 @@
     end: 2019/03/21
   location: Hong Kong, China
   description: ~
+  type: Conference
   highlight: true
 -
   name: Blockchain & Bitcoin Conference Prague
@@ -60,6 +76,7 @@
     end: 2019/03/22
   location: Prague, Czech Republic
   description: ~
+  type: Conference
   highlight: false
 -
   name: Crypto Expo Asia in Dubai
@@ -69,15 +86,17 @@
     end: 2019/03/29
   location: Dubai, UAE
   description: ~
+  type: Conference
   highlight: false
 -
   name: Blockchain Summit Frankfurt 2019
   url: https://blockchainsummitfrankfurt.com/
   date: 
-    start: 2019/03/25
+    start: 2019/03/26
     end: 2019/03/26
   location: Frankfurt, Germany
   description: Blockchain Summit Frankfurt is the leading blockchain for business event in Europe.
+  type: Conference
   highlight: true
 -
   name: CV Summit 2019
@@ -87,6 +106,7 @@
     end: 2019/03/27
   location: Casino Zug, Switzerland
   description: ~
+  type: Conference
   highlight: false
 -
   name: TF Blockchain 3
@@ -96,6 +116,7 @@
     end: 2019/03/28
   location: Seattle, WA
   description: ~
+  type: Conference
   highlight: false
 -
   name: BlockHealth Summit
@@ -105,6 +126,17 @@
     end: 2019/04/03
   location: Dubai, UAE
   description: ~
+  type: Conference
+  highlight: false
+-
+  name: Vienna Blockchain Week
+  url: https://www.viennablockchainweek.at/
+  date: 
+    start: 2019/04/01
+    end: 2019/04/05
+  location: Vienna, Austria
+  description: ~
+  type: Conference
   highlight: false
 -
   name: Future Blockchain Summit
@@ -114,6 +146,7 @@
     end: 2019/04/03
   location: Dubai, UAE
   description: ~
+  type: Conference
   highlight: false
 -
   name: Blockchain Summit Austria
@@ -123,6 +156,7 @@
     end: 2019/04/03
   location: Vienna, Austria
   description: ~
+  type: Conference
   highlight: false
 -
   name: CryptoBlockCon Los Angeles
@@ -132,6 +166,7 @@
     end: 2019/04/04
   location: Los Angeles, CA
   description: ~
+  type: Conference
   highlight: false
 -
   name: 2019 Fintech & Financing Conference and Expo
@@ -141,6 +176,7 @@
     end: 2019/04/04
   location: Toronto, Canada
   description: ~
+  type: Conference
   highlight: false
 -
   name: Deconomy Seoul 2019
@@ -150,6 +186,7 @@
     end: 2019/04/05
   location: Seoul, South Korea
   description: ~
+  type: Conference
   highlight: true
 -
   name: Blockchain Las Vegas
@@ -159,6 +196,7 @@
     end: 2019/04/06
   location: Las Vegas, NV
   description: ~
+  type: Conference
   highlight: false
 -
   name: CoinFestUK 2019
@@ -168,6 +206,7 @@
     end: 2019/04/06
   location: Manchester, UK
   description: ~
+  type: Conference
   highlight: false
 -
   name: DAPPCON 2019
@@ -186,6 +225,7 @@
     end: 2019/04/07
   location: Tokyo, Japan
   description: ~
+  type: Conference
   highlight: false
 -
   name: Security Token Summit
@@ -195,6 +235,7 @@
     end: 2019/04/08
   location: Los Angeles, CA
   description: ~
+  type: Conference
   highlight: false
 -
   name: Crypto Invest Summit
@@ -204,6 +245,7 @@
     end: 2019/04/10
   location: Los Angeles, CA
   description: ~
+  type: Conference
   highlight: false
 -
   name: Chain Plus Asia Pacific Blockchain New Finance Summit
@@ -213,6 +255,7 @@
     end: 2019/04/12
   location: Singapore
   description: ~
+  type: Conference
   highlight: true
 -
   name: Stockholm Blockchain Forum
@@ -222,6 +265,7 @@
     end: 2019/04/11
   location: Stockholm, Sweden
   description: ~
+  type: Conference
   highlight: false
 -
   name: NEXT BLOCK Conference
@@ -231,6 +275,7 @@
     end: 2019/04/12
   location: Sofia, Bulgaria
   description: ~
+  type: Conference
   highlight: false
 -
   name: Paris Blockchain Week
@@ -240,6 +285,7 @@
     end: 2019/04/19
   location: Paris, France
   description: ~
+  type: Conference
   highlight: false
 -
   name: Paris Blockchain Week Summit
@@ -249,6 +295,17 @@
     end: 2019/04/17
   location: Paris, France
   description: ~
+  type: Conference
+  highlight: false
+-
+  name: ETHCapeTown
+  url: https://ethcapetown.com/
+  date: 
+    start: 2019/04/19
+    end: 2019/04/21
+  location: Cape Town, South Africa
+  description: ~
+  type: Hackathon
   highlight: false
 -
   name: Blockchain Life 2019
@@ -258,6 +315,7 @@
     end: 2019/04/24
   location: Singapore
   description: ~
+  type: Conference
   highlight: false
 -
   name: Blockchain Revolution Global
@@ -267,6 +325,7 @@
     end: 2019/04/25
   location: Toronto, Canada
   description: ~
+  type: Conference
   highlight: false
 -
   name: Blockpass Security Token Seminar
@@ -276,6 +335,7 @@
     end: 2019/04/24
   location: London, UK
   description: ~
+  type: Conference
   highlight: false
 -
   name: European Payment Summit 2019
@@ -285,6 +345,7 @@
     end: 2019/04/26
   location: The Hague, Netherlands
   description: ~
+  type: Conference
   highlight: false
 -
   name: Crypto Games Conference
@@ -294,6 +355,7 @@
     end: 2019/04/26
   location: Minsk, Belarus
   description: ~
+  type: Conference
   highlight: false
 -
   name: Global Blockchain Summit
@@ -303,6 +365,27 @@
     end: 2019/04/30
   location: Ljubljana, Slovenia
   description: ~
+  type: Conference
+  highlight: false
+-
+  name: Mining Summit 2019
+  url: http://www.bostonblockchaincommunity.com/
+  date: 
+    start: 2019/05/03
+    end: 2019/05/03
+  location: Boston, MA
+  description: ~
+  type: Conference
+  highlight: false
+-
+  name: Boston Blockchain Week
+  url: https://www.bostonblockchainweek.com/
+  date: 
+    start: 2019/05/06
+    end: 2019/05/12
+  location: Boston, MA
+  description: ~
+  type: Conference
   highlight: false
 -
   name: Blockchain for Finance Conference
@@ -312,6 +395,7 @@
     end: 2019/05/08
   location: Singapore
   description: ~
+  type: Conference
   highlight: false
 -
   name: Trading Show Chicago 2019
@@ -321,6 +405,17 @@
     end: 2019/05/09
   location: Chicago, IL
   description: ~
+  type: Conference
+  highlight: false
+-
+  name: Fluidity Summit 2019
+  url: https://www.fluiditysummit.com/
+  date: 
+    start: 2019/05/09
+    end: 2019/05/09
+  location: Brooklyn, NY
+  description: ~
+  type: Conference
   highlight: false
 -
   name: Ethereal Summit 2019
@@ -330,6 +425,7 @@
     end: 2019/05/11
   location: New York, NY
   description: ~
+  type: Conference
   highlight: false
 -
   name: Consensus
@@ -339,6 +435,7 @@
     end: 2019/05/15
   location: New York, NY
   description: ~
+  type: Conference
   highlight: true
 -
   name: Construct
@@ -348,6 +445,7 @@
     end: 2019/05/15
   location: New York, NY
   description: ~
+  type: Conference
   highlight: false
 -
   name: Bitcoin Live Fireside Chat
@@ -357,6 +455,7 @@
     end: 2019/05/14
   location: New York, NY
   description: ~
+  type: Conference
   highlight: false
 -
   name: Digital Asset Summit
@@ -366,6 +465,7 @@
     end: 2019/05/15
   location: New York, NY
   description: ~
+  type: Conference
   highlight: false
 -
   name: Token Summit IV
@@ -375,6 +475,7 @@
     end: 2019/05/16
   location: New York, NY
   description: ~
+  type: Conference
   highlight: false
 -
   name: European Blockchain Convention 2019
@@ -384,6 +485,7 @@
     end: 2019/05/20
   location: Copenhagen, Denmark
   description: ~
+  type: Conference
   highlight: false
 -
   name: Energy Unblocked 2019
@@ -393,6 +495,7 @@
     end: 2019/05/20
   location: London, UK
   description: ~
+  type: Conference
   highlight: false
 -
   name: Crypto Challenge Forum 2019
@@ -402,6 +505,7 @@
     end: 2019/05/25
   location: Malta
   description: ~
+  type: Conference
   highlight: false
 -
   name: Malta AI & Blockchain Summit
@@ -411,6 +515,7 @@
     end: 2019/05/24
   location: Malta
   description: ~
+  type: Conference
   highlight: false
 -
   name: Monaco Blockchain Masterclass
@@ -420,6 +525,7 @@
     end: 2019/05/31
   location: Monte Carlo, Monaco
   description: ~
+  type: Conference
   highlight: false
 -
   name: Blockchain for Financial Services Global Summit
@@ -429,6 +535,7 @@
     end: 2019/06/05
   location: Toronto, Canada
   description: ~
+  type: Conference
   highlight: false
 -
   name: CoinsBank Blockchain Cruise 2019
@@ -438,6 +545,7 @@
     end: 2019/06/13
   location: Barcelona, Spain
   description: ~
+  type: Conference
   highlight: false
 -
   name: CryptoConf
@@ -447,6 +555,7 @@
     end: 2019/06/12
   location: Dublin, Ireland
   description: ~
+  type: Conference
   highlight: false
 -
   name: Blockchain Summit London
@@ -456,6 +565,7 @@
     end: 2019/06/12
   location: London, UK
   description: ~
+  type: Conference
   highlight: false
 -
   name: UNCHAIN Convention 2019
@@ -465,6 +575,7 @@
     end: 2019/06/15
   location: Berlin, Germany
   description: ~
+  type: Conference
   highlight: false
 -
   name: Blockchain Expo Europe 2019
@@ -474,6 +585,7 @@
     end: 2019/06/20
   location: Amsterdam, Netherlands
   description: ~
+  type: Conference
   highlight: true
 -
   name: A.I. Blockchain Summit
@@ -483,6 +595,7 @@
     end: 2019/06/22
   location: Washington, DC
   description: ~
+  type: Conference
   highlight: false
 -
   name: Crypto Valley Conference
@@ -492,6 +605,7 @@
     end: 2019/06/25
   location: Zug, Switzerland
   description: ~
+  type: Conference
   highlight: false
 -
   name: Bitcoin 2019
@@ -501,15 +615,17 @@
     end: 2019/06/26
   location: San Francisco, CA
   description: ~
+  type: Conference
   highlight: true
 -
   name: Blockchain Summit London
   url: https://blockchainsummitlondon.com/
   date: 
-    start: 2019/06/25
-    end: 2019/06/26
+    start: 2019/06/26
+    end: 2019/06/27
   location: London, UK
   description: ~
+  type: Conference
   highlight: false
 -
   name: Barcelona Trading Conference
@@ -519,6 +635,7 @@
     end: 2019/07/11
   location: Barcelona, Spain
   description: ~
+  type: Conference
   highlight: false
 -
   name: CryptoBlockCon New York
@@ -528,15 +645,17 @@
     end: 2019/08/14
   location: New York, NY
   description: ~
+  type: Conference
   highlight: false
 -
   name: Blockchain Summit Singapore
   url: https://www.blockchainsummitsingapore.com/
   date: 
-    start: 2019/08/25
-    end: 2019/08/26
+    start: 2019/08/20
+    end: 2019/08/20
   location: Suntec, Singapore
   description: ~
+  type: Conference
   highlight: false
 -
   name: CryptoBlockCon London
@@ -546,6 +665,7 @@
     end: 2019/09/24
   location: London, UK
   description: ~
+  type: Conference
   highlight: false
 -
   name: Blockchain Live 2019
@@ -555,6 +675,47 @@
     end: 2019/09/25
   location: London, UK
   description: ~
+  type: Conference
+  highlight: false
+-
+  name: Delta Summit 2019
+  url: https://www.delta-summit.com/
+  date: 
+    start: 2019/10/02
+    end: 2019/10/04
+  location: ~
+  description: ~
+  type: Conference
+  highlight: false
+-
+  name: ETC Summit 2019
+  url: https://etcsummit.com/
+  date: 
+    start: 2019/10/03
+    end: 2019/10/04
+  location: Vancouver, Canada
+  description: ~
+  type: Conference
+  highlight: false
+-
+  name: TCConf
+  url: https://tcconf.ro/
+  date: 
+    start: 2019/10/10
+    end: 2019/10/13
+  location: Cluj-Napoca, Romania
+  description: ~
+  type: Conference
+  highlight: false
+-
+  name: Vegas Blockchain Week 2019
+  url: https://evolv.events/wcc-vegas/vbw/
+  date: 
+    start: 2019/10/25
+    end: 2019/10/31
+  location: Las Vegas, NV
+  description: ~
+  type: Conference
   highlight: false
 -
   name: Money20/20 USA
@@ -564,6 +725,7 @@
     end: 2019/10/30
   location: Las Vegas, NV
   description: ~
+  type: Conference
   highlight: false
 -
   name: World Crypto Conference
@@ -573,6 +735,7 @@
     end: 2019/10/31
   location: Las Vegas, NV
   description: ~
+  type: Conference
   highlight: false
 -
   name: Malta AI & Blockchain Summit
@@ -582,6 +745,17 @@
     end: 2019/11/08
   location: Malta
   description: ~
+  type: Conference
+  highlight: false
+-
+  name: BlockShow Asia 2019
+  url: https://blockshow.com/
+  date: 
+    start: 2019/11/14
+    end: 2019/11/15
+  location: Singapore
+  description: ~
+  type: Conference
   highlight: false
 -
   name: CryptoBlockCon Las Vegas
@@ -591,4 +765,5 @@
     end: 2019/12/11
   location: Las Vegas, NV
   description: ~
+  type: Conference
   highlight: false
