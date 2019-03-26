@@ -159,6 +159,16 @@
   type: Conference
   highlight: false
 -
+  name: Bitcoin Wednesday
+  url: https://www.bitcoinwednesday.com/
+  date: 
+    start: 2019/04/03
+    end: 2019/04/03
+  location: Amsterdam, Netherlands
+  description: Bitcoin Wednesday is the longest-running monthly conference about the Digital Currency Revolution in The Netherlands.
+  type: Events
+  highlight: false
+-
   name: CryptoBlockCon Los Angeles
   url: https://www.cryptoblockcon.com/los-angeles-april-2019/
   date: 
